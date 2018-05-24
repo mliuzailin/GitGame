@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- カスタムURLスキーム対応 ココカラ -->
+	<!-- 「このアプリが起動された場合に、起動元がarrays.xmlに登録されてる要素と一致したらその起動元をPlayerPrefにセーブしとく」みたいな機能 -->
+	<!-- カスタムURLスキームの指定ホスト名 (カスタムURLスキーム経由で起動した事を保存するPlayerPrefsのキー値としても使用する) -->
+	<string-array name="custom_url_scheme_hosts">
+		<!-- 利用規約への同意関連 -->
+		<item>agree_ok</item>
+		<item>agree_ok_policy</item>
+	</string-array>
+</resources>

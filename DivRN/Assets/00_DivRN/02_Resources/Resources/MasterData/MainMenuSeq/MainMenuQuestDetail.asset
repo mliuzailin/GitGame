@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84082adce439805429b2b1bbaf94209b, type: 3}
+  m_Name: MainMenuQuestDetail
+  m_EditorClassIdentifier: 
+  Sequence: 505
+  SequenceObjArray:
+  - object_name: QuestDetail/QuestDetailBG
+  - object_name: QuestDetail/QuestDetailInfo
+  - object_name: QuestDetail/QuestDetailMessage
+  - object_name: QuestDetail/QuestDetailMission
+  - object_name: QuestDetail/QuestDetailTab
+  SequenceName: MainMenuQuestDetail
+  HeaderDraw: 1
+  HeaderActive: 1
+  FooterDraw: 1
+  FooterActive: 1
+  RefreshResource: 0
+  Return: 1

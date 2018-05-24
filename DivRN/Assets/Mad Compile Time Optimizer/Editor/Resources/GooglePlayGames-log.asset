@@ -1,0 +1,610 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 342976093, guid: 5eb872180e6624b46b2fa8b2229cc7ac, type: 3}
+  m_Name: GooglePlayGames-log
+  m_EditorClassIdentifier: 
+  ruleName: GooglePlayGames
+  rootDirectoryGUID: fc0c7adaeb87b4bee9c859246ea804e6
+  rules:
+  - sourcePath: Assets/GooglePlayGames/GameInfo.cs
+    sourceGUID: a722d413080904cc1bd07f4db21e1af1
+    targetPath: Assets/Plugins/GooglePlayGames/GameInfo.cs
+  - sourcePath: Assets/GooglePlayGames/PluginVersion.cs
+    sourceGUID: 4539142948daf4a26bf9cd6870ffa0b2
+    targetPath: Assets/Plugins/GooglePlayGames/PluginVersion.cs
+  - sourcePath: Assets/GooglePlayGames/BasicApi/Achievement.cs
+    sourceGUID: b20fc2fda369044ba962d1d9115c4c63
+    targetPath: Assets/Plugins/GooglePlayGames/BasicApi/Achievement.cs
+  - sourcePath: Assets/GooglePlayGames/BasicApi/CommonStatusCodes.cs
+    sourceGUID: cd54f7a2763f74ce191bdd3efa0a44d5
+    targetPath: Assets/Plugins/GooglePlayGames/BasicApi/CommonStatusCodes.cs
+  - sourcePath: Assets/GooglePlayGames/BasicApi/CommonTypes.cs
+    sourceGUID: 1c5d1cb1974d14c0c8b32fcf00089556
+    targetPath: Assets/Plugins/GooglePlayGames/BasicApi/CommonTypes.cs
+  - sourcePath: Assets/GooglePlayGames/BasicApi/DummyClient.cs
+    sourceGUID: 2c600182c9892457e92f885549bd838a
+    targetPath: Assets/Plugins/GooglePlayGames/BasicApi/DummyClient.cs
+  - sourcePath: Assets/GooglePlayGames/BasicApi/IPlayGamesClient.cs
+    sourceGUID: 9138e04e4459148c680055b40ad324c0
+    targetPath: Assets/Plugins/GooglePlayGames/BasicApi/IPlayGamesClient.cs
+  - sourcePath: Assets/GooglePlayGames/BasicApi/LeaderboardScoreData.cs
+    sourceGUID: 8e369c64e8c9f4571a8847f37848c37e
+    targetPath: Assets/Plugins/GooglePlayGames/BasicApi/LeaderboardScoreData.cs
+  - sourcePath: Assets/GooglePlayGames/BasicApi/PlayGamesClientConfiguration.cs
+    sourceGUID: 1745f86410be744efb109ca787dd4a54
+    targetPath: Assets/Plugins/GooglePlayGames/BasicApi/PlayGamesClientConfiguration.cs
+  - sourcePath: Assets/GooglePlayGames/BasicApi/PlayerStats.cs
+    sourceGUID: 0cf73f44d6d524deab1717d6e71e2c6d
+    targetPath: Assets/Plugins/GooglePlayGames/BasicApi/PlayerStats.cs
+  - sourcePath: Assets/GooglePlayGames/BasicApi/ScorePageToken.cs
+    sourceGUID: 3eade9d49f3e341ddb2ba8209e7ddf42
+    targetPath: Assets/Plugins/GooglePlayGames/BasicApi/ScorePageToken.cs
+  - sourcePath: Assets/GooglePlayGames/BasicApi/Events/IEvent.cs
+    sourceGUID: 7e4f4f47218d14208a8ae0f676e1bca4
+    targetPath: Assets/Plugins/GooglePlayGames/BasicApi/Events/IEvent.cs
+  - sourcePath: Assets/GooglePlayGames/BasicApi/Events/IEventsClient.cs
+    sourceGUID: da57ba264ec114c57b8352923847ec34
+    targetPath: Assets/Plugins/GooglePlayGames/BasicApi/Events/IEventsClient.cs
+  - sourcePath: Assets/GooglePlayGames/BasicApi/Multiplayer/IRealTimeMultiplayerClient.cs
+    sourceGUID: 68aa62eed73bf4b448d9f21dd702975b
+    targetPath: Assets/Plugins/GooglePlayGames/BasicApi/Multiplayer/IRealTimeMultiplayerClient.cs
+  - sourcePath: Assets/GooglePlayGames/BasicApi/Multiplayer/ITurnBasedMultiplayerClient.cs
+    sourceGUID: 9313e0ba5a20b49d6a88369fc1e13524
+    targetPath: Assets/Plugins/GooglePlayGames/BasicApi/Multiplayer/ITurnBasedMultiplayerClient.cs
+  - sourcePath: Assets/GooglePlayGames/BasicApi/Multiplayer/Invitation.cs
+    sourceGUID: 28a679d948b9b4be8bf507e2c05e9d7c
+    targetPath: Assets/Plugins/GooglePlayGames/BasicApi/Multiplayer/Invitation.cs
+  - sourcePath: Assets/GooglePlayGames/BasicApi/Multiplayer/MatchOutcome.cs
+    sourceGUID: e53083b6904a24b629443e34f6223e2c
+    targetPath: Assets/Plugins/GooglePlayGames/BasicApi/Multiplayer/MatchOutcome.cs
+  - sourcePath: Assets/GooglePlayGames/BasicApi/Multiplayer/Participant.cs
+    sourceGUID: 84b392add142841f7ad24ffe64ca6364
+    targetPath: Assets/Plugins/GooglePlayGames/BasicApi/Multiplayer/Participant.cs
+  - sourcePath: Assets/GooglePlayGames/BasicApi/Multiplayer/Player.cs
+    sourceGUID: ef2d8e06eff4f4c70b05856139de7e37
+    targetPath: Assets/Plugins/GooglePlayGames/BasicApi/Multiplayer/Player.cs
+  - sourcePath: Assets/GooglePlayGames/BasicApi/Multiplayer/RealTimeMultiplayerListener.cs
+    sourceGUID: 410e773606efe4b15bf0dfe3add022cb
+    targetPath: Assets/Plugins/GooglePlayGames/BasicApi/Multiplayer/RealTimeMultiplayerListener.cs
+  - sourcePath: Assets/GooglePlayGames/BasicApi/Multiplayer/TurnBasedMatch.cs
+    sourceGUID: 6422a9e21a64449c7aa2b700c1c88ddd
+    targetPath: Assets/Plugins/GooglePlayGames/BasicApi/Multiplayer/TurnBasedMatch.cs
+  - sourcePath: Assets/GooglePlayGames/BasicApi/Nearby/AdvertisingResult.cs
+    sourceGUID: 941324a6338664af6a9faf5b88cad408
+    targetPath: Assets/Plugins/GooglePlayGames/BasicApi/Nearby/AdvertisingResult.cs
+  - sourcePath: Assets/GooglePlayGames/BasicApi/Nearby/ConnectionRequest.cs
+    sourceGUID: c7f9bb6b249224f99ad05a87d3e4ee34
+    targetPath: Assets/Plugins/GooglePlayGames/BasicApi/Nearby/ConnectionRequest.cs
+  - sourcePath: Assets/GooglePlayGames/BasicApi/Nearby/ConnectionResponse.cs
+    sourceGUID: ad6611af8d0204d0d8922a327d3d9ec0
+    targetPath: Assets/Plugins/GooglePlayGames/BasicApi/Nearby/ConnectionResponse.cs
+  - sourcePath: Assets/GooglePlayGames/BasicApi/Nearby/DummyNearbyConnectionClient.cs
+    sourceGUID: 9b3f34a2bba13428789d02b53fd89a47
+    targetPath: Assets/Plugins/GooglePlayGames/BasicApi/Nearby/DummyNearbyConnectionClient.cs
+  - sourcePath: Assets/GooglePlayGames/BasicApi/Nearby/EndpointDetails.cs
+    sourceGUID: 9d9a087b0e20d4752b24f33a4a2bf977
+    targetPath: Assets/Plugins/GooglePlayGames/BasicApi/Nearby/EndpointDetails.cs
+  - sourcePath: Assets/GooglePlayGames/BasicApi/Nearby/INearbyConnectionClient.cs
+    sourceGUID: cb64b5b444dd34de5bd308c7eed6e509
+    targetPath: Assets/Plugins/GooglePlayGames/BasicApi/Nearby/INearbyConnectionClient.cs
+  - sourcePath: Assets/GooglePlayGames/BasicApi/Nearby/NearbyConnectionConfiguration.cs
+    sourceGUID: 968ac90e4a9094a4a92df9da1ee1f884
+    targetPath: Assets/Plugins/GooglePlayGames/BasicApi/Nearby/NearbyConnectionConfiguration.cs
+  - sourcePath: Assets/GooglePlayGames/BasicApi/Quests/IQuest.cs
+    sourceGUID: 26dddcd2ed6a74cc6bb24db80547dfe3
+    targetPath: Assets/Plugins/GooglePlayGames/BasicApi/Quests/IQuest.cs
+  - sourcePath: Assets/GooglePlayGames/BasicApi/Quests/IQuestMilestone.cs
+    sourceGUID: a13b20507a61c4e4188557552262581a
+    targetPath: Assets/Plugins/GooglePlayGames/BasicApi/Quests/IQuestMilestone.cs
+  - sourcePath: Assets/GooglePlayGames/BasicApi/Quests/IQuestsClient.cs
+    sourceGUID: 4e34074b6cc8141f3913d8292f5e23f6
+    targetPath: Assets/Plugins/GooglePlayGames/BasicApi/Quests/IQuestsClient.cs
+  - sourcePath: Assets/GooglePlayGames/BasicApi/SavedGame/ISavedGameClient.cs
+    sourceGUID: 5d4ff89980bdd4c9780aa3ceee54a51b
+    targetPath: Assets/Plugins/GooglePlayGames/BasicApi/SavedGame/ISavedGameClient.cs
+  - sourcePath: Assets/GooglePlayGames/BasicApi/SavedGame/ISavedGameMetadata.cs
+    sourceGUID: a94650f478358403ea166d374b2a950c
+    targetPath: Assets/Plugins/GooglePlayGames/BasicApi/SavedGame/ISavedGameMetadata.cs
+  - sourcePath: Assets/GooglePlayGames/BasicApi/SavedGame/SavedGameMetadataUpdate.cs
+    sourceGUID: 602d9e1c90f0144e79536115f3614478
+    targetPath: Assets/Plugins/GooglePlayGames/BasicApi/SavedGame/SavedGameMetadataUpdate.cs
+  - sourcePath: Assets/GooglePlayGames/Editor/GPGSAndroidSetupUI.cs
+    sourceGUID: 41fe658b93aa24c709c540575965fdff
+    targetPath: Assets/Plugins/Editor/GooglePlayGames/Editor/GPGSAndroidSetupUI.cs
+  - sourcePath: Assets/GooglePlayGames/Editor/GPGSDependencies.cs
+    sourceGUID: f68b1911efe9d4dd596c12bf750c2bfe
+    targetPath: Assets/Plugins/Editor/GooglePlayGames/Editor/GPGSDependencies.cs
+  - sourcePath: Assets/GooglePlayGames/Editor/GPGSDocsUI.cs
+    sourceGUID: 73cbcab28a27446ff9e06e06a040814f
+    targetPath: Assets/Plugins/Editor/GooglePlayGames/Editor/GPGSDocsUI.cs
+  - sourcePath: Assets/GooglePlayGames/Editor/GPGSIOSSetupUI.cs
+    sourceGUID: 64aa73c635d514a8d993bf9d5ae00588
+    targetPath: Assets/Plugins/Editor/GooglePlayGames/Editor/GPGSIOSSetupUI.cs
+  - sourcePath: Assets/GooglePlayGames/Editor/GPGSPostBuild.cs
+    sourceGUID: 1a7b050a8e8214613893df7d81dcc13c
+    targetPath: Assets/Plugins/Editor/GooglePlayGames/Editor/GPGSPostBuild.cs
+  - sourcePath: Assets/GooglePlayGames/Editor/GPGSProjectSettings.cs
+    sourceGUID: cf234a050ba25433f9386e20578ccf19
+    targetPath: Assets/Plugins/Editor/GooglePlayGames/Editor/GPGSProjectSettings.cs
+  - sourcePath: Assets/GooglePlayGames/Editor/GPGSStrings.cs
+    sourceGUID: 992ecb564cf02408d9c5a1b44d958334
+    targetPath: Assets/Plugins/Editor/GooglePlayGames/Editor/GPGSStrings.cs
+  - sourcePath: Assets/GooglePlayGames/Editor/GPGSUpgrader.cs
+    sourceGUID: 357a64420a0c44b61a0ed7ca22c7f10f
+    targetPath: Assets/Plugins/Editor/GooglePlayGames/Editor/GPGSUpgrader.cs
+  - sourcePath: Assets/GooglePlayGames/Editor/GPGSUtil.cs
+    sourceGUID: fd01714f9ee99447996b878b1ac67540
+    targetPath: Assets/Plugins/Editor/GooglePlayGames/Editor/GPGSUtil.cs
+  - sourcePath: Assets/GooglePlayGames/Editor/NearbyConnectionUI.cs
+    sourceGUID: b64332a502e18436da5652adbf7e24a3
+    targetPath: Assets/Plugins/Editor/GooglePlayGames/Editor/NearbyConnectionUI.cs
+  - sourcePath: Assets/GooglePlayGames/Editor/PlistBuddyHelper.cs
+    sourceGUID: dc5745fd45f954310ad2eb74ff51a584
+    targetPath: Assets/Plugins/Editor/GooglePlayGames/Editor/PlistBuddyHelper.cs
+  - sourcePath: Assets/GooglePlayGames/Editor/xcode/Elements.cs
+    sourceGUID: c632057fb6683498295339ee98183067
+    targetPath: Assets/Plugins/Editor/GooglePlayGames/Editor/xcode/Elements.cs
+  - sourcePath: Assets/GooglePlayGames/Editor/xcode/Lexer.cs
+    sourceGUID: 40f10b961a9a641bda05addd50a63aa8
+    targetPath: Assets/Plugins/Editor/GooglePlayGames/Editor/xcode/Lexer.cs
+  - sourcePath: Assets/GooglePlayGames/Editor/xcode/Objects.cs
+    sourceGUID: ef88d8b9914bd4544952c30fd2d41679
+    targetPath: Assets/Plugins/Editor/GooglePlayGames/Editor/xcode/Objects.cs
+  - sourcePath: Assets/GooglePlayGames/Editor/xcode/PBXProject.cs
+    sourceGUID: 2b7cd52d0b7824b128e5ad5e1e5e23ff
+    targetPath: Assets/Plugins/Editor/GooglePlayGames/Editor/xcode/PBXProject.cs
+  - sourcePath: Assets/GooglePlayGames/Editor/xcode/Parser.cs
+    sourceGUID: 7355e114630e64676923238c64eb134b
+    targetPath: Assets/Plugins/Editor/GooglePlayGames/Editor/xcode/Parser.cs
+  - sourcePath: Assets/GooglePlayGames/Editor/xcode/Sections.cs
+    sourceGUID: f7d8d28aa80e245e9a938c28733b8b3e
+    targetPath: Assets/Plugins/Editor/GooglePlayGames/Editor/xcode/Sections.cs
+  - sourcePath: Assets/GooglePlayGames/Editor/xcode/Serializer.cs
+    sourceGUID: 25728e9e485ad41eea89c659ee4adac3
+    targetPath: Assets/Plugins/Editor/GooglePlayGames/Editor/xcode/Serializer.cs
+  - sourcePath: Assets/GooglePlayGames/Editor/xcode/Utils.cs
+    sourceGUID: e7e5628f7706a452695bf27bf70de445
+    targetPath: Assets/Plugins/Editor/GooglePlayGames/Editor/xcode/Utils.cs
+  - sourcePath: Assets/GooglePlayGames/ISocialPlatform/PlayGamesAchievement.cs
+    sourceGUID: e5354c32a5dc64372ba5102f7f787adf
+    targetPath: Assets/Plugins/GooglePlayGames/ISocialPlatform/PlayGamesAchievement.cs
+  - sourcePath: Assets/GooglePlayGames/ISocialPlatform/PlayGamesLeaderboard.cs
+    sourceGUID: a027e4767bd0f41509b9ef6bd2f6080e
+    targetPath: Assets/Plugins/GooglePlayGames/ISocialPlatform/PlayGamesLeaderboard.cs
+  - sourcePath: Assets/GooglePlayGames/ISocialPlatform/PlayGamesLocalUser.cs
+    sourceGUID: 3b5f03fe051cb4a41a3b5489bd63c24c
+    targetPath: Assets/Plugins/GooglePlayGames/ISocialPlatform/PlayGamesLocalUser.cs
+  - sourcePath: Assets/GooglePlayGames/ISocialPlatform/PlayGamesPlatform.cs
+    sourceGUID: c1de7754a6e7f4fb08b76780a184b3ca
+    targetPath: Assets/Plugins/GooglePlayGames/ISocialPlatform/PlayGamesPlatform.cs
+  - sourcePath: Assets/GooglePlayGames/ISocialPlatform/PlayGamesScore.cs
+    sourceGUID: 2a6e2425305ab455a91061b1eb955b38
+    targetPath: Assets/Plugins/GooglePlayGames/ISocialPlatform/PlayGamesScore.cs
+  - sourcePath: Assets/GooglePlayGames/ISocialPlatform/PlayGamesUserProfile.cs
+    sourceGUID: ab1b90315f37e498a849765260dd436c
+    targetPath: Assets/Plugins/GooglePlayGames/ISocialPlatform/PlayGamesUserProfile.cs
+  - sourcePath: Assets/GooglePlayGames/OurUtils/Logger.cs
+    sourceGUID: cde7cfd197b4a47edac2efe305e22e78
+    targetPath: Assets/Plugins/GooglePlayGames/OurUtils/Logger.cs
+  - sourcePath: Assets/GooglePlayGames/OurUtils/Misc.cs
+    sourceGUID: ee52269f55933442fa5ea52e688ebec2
+    targetPath: Assets/Plugins/GooglePlayGames/OurUtils/Misc.cs
+  - sourcePath: Assets/GooglePlayGames/OurUtils/PlatformUtils.cs
+    sourceGUID: 053811e778f3d4e3e98065f5db5bd005
+    targetPath: Assets/Plugins/GooglePlayGames/OurUtils/PlatformUtils.cs
+  - sourcePath: Assets/GooglePlayGames/OurUtils/PlayGamesHelperObject.cs
+    sourceGUID: 7dd6f93ee6cb54945aea72a87542f720
+    targetPath: Assets/Plugins/GooglePlayGames/OurUtils/PlayGamesHelperObject.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/IClientImpl.cs
+    sourceGUID: 087ab315858334a5cb48796605af611f
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/IClientImpl.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/NearbyConnectionClientFactory.cs
+    sourceGUID: ff1201bd0205943ba9c881e50e38156b
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/NearbyConnectionClientFactory.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/PlayGamesClientFactory.cs
+    sourceGUID: 435fc2d0dc0ba475e9c8b0796303d6dd
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/PlayGamesClientFactory.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/TokenClient.cs
+    sourceGUID: 8c9a946582bf14116914768969f58fc3
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/TokenClient.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Android/AndroidClient.cs
+    sourceGUID: 4b28d84b2f6194e5eac9d4e53959692b
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Android/AndroidClient.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Android/AndroidTokenClient.cs
+    sourceGUID: 67f70ff1fd41c49888b4b74ca7a78dfd
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Android/AndroidTokenClient.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Android/Developers/JavaInterfaceProxy.cs
+    sourceGUID: a8ac4ec32352646f1b5e5e85382d350f
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Android/Developers/JavaInterfaceProxy.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Android/Developers/JavaObjWrapper.cs
+    sourceGUID: 3ab44a9bc15ef4b1ab3de8aeb57aff0f
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Android/Developers/JavaObjWrapper.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Android/Gms/Common/ConnectionResult.cs
+    sourceGUID: ac0957bcf1fc342898ef6bae74c76990
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Android/Gms/Common/ConnectionResult.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Android/Gms/Common/Api/GoogleApiClient.cs
+    sourceGUID: aa624a89c32214bd3b89b6decec08f1e
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Android/Gms/Common/Api/GoogleApiClient.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Android/Gms/Common/Api/PendingResult.cs
+    sourceGUID: 2d1a54a878f224973aacf4fc60c68e85
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Android/Gms/Common/Api/PendingResult.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Android/Gms/Common/Api/Result.cs
+    sourceGUID: 6a3c0cf021f19451d805633476dfdd48
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Android/Gms/Common/Api/Result.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Android/Gms/Common/Api/ResultCallback.cs
+    sourceGUID: 4eab4f8a3260e4b3aaa0d9609fcb8308
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Android/Gms/Common/Api/ResultCallback.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Android/Gms/Common/Api/ResultCallbackProxy.cs
+    sourceGUID: 4095ddf096da042c18fcfe496462783f
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Android/Gms/Common/Api/ResultCallbackProxy.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Android/Gms/Common/Api/Status.cs
+    sourceGUID: ba6a7557840d74502b2e74c7df2a6bb0
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Android/Gms/Common/Api/Status.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Android/Gms/Games/Games.cs
+    sourceGUID: 4619c26341757456089b17b4c6259a32
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Android/Gms/Games/Games.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Android/Gms/Games/Stats/LoadPlayerStatsResultObject.cs
+    sourceGUID: c6af5b8db7afd4cb699d253d8360473f
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Android/Gms/Games/Stats/LoadPlayerStatsResultObject.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Android/Gms/Games/Stats/PlayerStats.cs
+    sourceGUID: 6feb732173ed8436499bb1b3e7de34a9
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Android/Gms/Games/Stats/PlayerStats.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Android/Gms/Games/Stats/PlayerStatsObject.cs
+    sourceGUID: 93a3f4625b2094819a9fd01fc97f6bbe
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Android/Gms/Games/Stats/PlayerStatsObject.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Android/Gms/Games/Stats/Stats.cs
+    sourceGUID: 0d517fe1a691e4be29e18141f9291d95
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Android/Gms/Games/Stats/Stats.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Android/Gms/Games/Stats/StatsObject.cs
+    sourceGUID: d4f2cd4caf65e4dd89a774b76f324341
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Android/Gms/Games/Stats/StatsObject.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/IOS/IOSClient.cs
+    sourceGUID: a8218d48b214a487ba7cee0a2da093f7
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/IOS/IOSClient.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/IOS/IOSTokenClient.cs
+    sourceGUID: 17435fd4b38cf404297017b1057f423d
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/IOS/IOSTokenClient.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/CallbackUtils.cs
+    sourceGUID: 8401b8a550ea84ceab3373bb5ea03976
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/CallbackUtils.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/ConversionUtils.cs
+    sourceGUID: 00e08ce5b0e2044329c76dcf32fcec96
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/ConversionUtils.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/JavaUtils.cs
+    sourceGUID: 06b9b367df4894ddfa42df36bd4a13b2
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/JavaUtils.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/NativeClient.cs
+    sourceGUID: 45855627dce52417eb0de782e7a8c5ae
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/NativeClient.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/NativeEventClient.cs
+    sourceGUID: 7243e2ded63c2436ebdc8818570f9e10
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/NativeEventClient.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/NativeNearbyConnectionClientFactory.cs
+    sourceGUID: 7c14f34eac09d4105b114ceb1a5a2bfc
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/NativeNearbyConnectionClientFactory.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/NativeNearbyConnectionsClient.cs
+    sourceGUID: 550f9c6987fbe40bfb15f0e8a5367fbd
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/NativeNearbyConnectionsClient.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/NativeQuestClient.cs
+    sourceGUID: 00e67e97029f64d44904d85583893fe9
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/NativeQuestClient.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/NativeRealtimeMultiplayerClient.cs
+    sourceGUID: ccfb355d1c4e64812b2dc16d4ea45dd2
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/NativeRealtimeMultiplayerClient.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/NativeSavedGameClient.cs
+    sourceGUID: 8562f3a2471174f1d9cef2e6da5d7466
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/NativeSavedGameClient.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/NativeTurnBasedMultiplayerClient.cs
+    sourceGUID: 67657391502934a31a1dda11383ae80b
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/NativeTurnBasedMultiplayerClient.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/UnsupportedSavedGamesClient.cs
+    sourceGUID: f3d3bfa4f916c4c7daa671a2012fa952
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/UnsupportedSavedGamesClient.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/Achievement.cs
+    sourceGUID: 93919c6703a8041b7b1dd436eede207b
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/Achievement.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/AchievementManager.cs
+    sourceGUID: fa98b1ebb2830448ea4642c07e412fd1
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/AchievementManager.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/AndroidPlatformConfiguration.cs
+    sourceGUID: 5656c91638bae4595a216d465b90d1c1
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/AndroidPlatformConfiguration.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/Builder.cs
+    sourceGUID: 99a41cbc265ba4a78a31e6320df48573
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/Builder.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/CommonErrorStatus.cs
+    sourceGUID: 94acd2026fc204b8ea791743b76e60b8
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/CommonErrorStatus.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/EndpointDiscoveryListenerHelper.cs
+    sourceGUID: c3cd80682843947e6a23a9819ca7b26d
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/EndpointDiscoveryListenerHelper.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/Event.cs
+    sourceGUID: 507c3afc8af6d4851ae71a49f97a1683
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/Event.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/EventManager.cs
+    sourceGUID: c67aa08a5cbff47ddade45cd921bf2e7
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/EventManager.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/GameServices.cs
+    sourceGUID: 44d97ab27deef4ac887ca452f0543589
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/GameServices.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/InternalHooks.cs
+    sourceGUID: d4489f20c4db64188a1a72c0a332c132
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/InternalHooks.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/IosPlatformConfiguration.cs
+    sourceGUID: 65638823b51a44166a0e97de84fab682
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/IosPlatformConfiguration.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/Leaderboard.cs
+    sourceGUID: e9d816497596b46c0a989c9df3aff865
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/Leaderboard.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/LeaderboardManager.cs
+    sourceGUID: c5c920e283354414fb234b62e3d87a54
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/LeaderboardManager.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/MessageListenerHelper.cs
+    sourceGUID: 2ca5544776d7d499c86eb93e871af9ba
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/MessageListenerHelper.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/MultiplayerInvitation.cs
+    sourceGUID: 92753f25908ff4223978f64bc1025474
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/MultiplayerInvitation.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/MultiplayerParticipant.cs
+    sourceGUID: f1a143ae01f1344d59c6b033c195acf5
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/MultiplayerParticipant.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/NearbyConnectionTypes.cs
+    sourceGUID: 86d1083559a054564a0f4b8573559213
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/NearbyConnectionTypes.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/NearbyConnections.cs
+    sourceGUID: 2f5b542297e1345eba55b8616475a935
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/NearbyConnections.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/NearbyConnectionsBuilder.cs
+    sourceGUID: 1b0c47901f45c4a7db073f05e8f42e2d
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/NearbyConnectionsBuilder.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/NearbyConnectionsStatus.cs
+    sourceGUID: ab6fb905cbbc340cb87a8bd95e562512
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/NearbyConnectionsStatus.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/ParticipantResults.cs
+    sourceGUID: 3b97b334de3e84901a8ab16bb6ff94a3
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/ParticipantResults.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/Player.cs
+    sourceGUID: a840219c1c2694e31ba4431e8db45f61
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/Player.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/PlayerManager.cs
+    sourceGUID: c4fe035361b0a4585a5ff89597181a5b
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/PlayerManager.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/PlayerStats.cs
+    sourceGUID: ad96a88355cd7411dbe6b3835431d64e
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/PlayerStats.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/Quest.cs
+    sourceGUID: 322dc8d5832d74ff99751235d18d37e2
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/Quest.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/QuestManager.cs
+    sourceGUID: 0e74ffa4523ca49bd9be435c5807b1fb
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/QuestManager.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/QuestMilestone.cs
+    sourceGUID: 105be295fd7454c519377327b1dc5c1b
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/QuestMilestone.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/RealTimeEventListenerHelper.cs
+    sourceGUID: 2957d14b6cdfa48e18dc02cc168214f5
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/RealTimeEventListenerHelper.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/RealTimeMultiplayerManager.cs
+    sourceGUID: 50f3afda8e0a14a49938b49bb5b31ebd
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/RealTimeMultiplayerManager.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/RealTimeRoom.cs
+    sourceGUID: 3fc4b2a674a1c456b9e282dd7f7b9fbd
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/RealTimeRoom.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/RealTimeRoomConfig.cs
+    sourceGUID: 9b68962325568458da71b7303409a124
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/RealTimeRoomConfig.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/RealTimeRoomConfigBuilder.cs
+    sourceGUID: 1bf35f94fb9464bb38b9057a7f845fce
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/RealTimeRoomConfigBuilder.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/Score.cs
+    sourceGUID: be5afcf7451ee4eda81bf9d5bc8ac82c
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/Score.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/ScorePage.cs
+    sourceGUID: 41f96a77f771f48de873230602f23a8e
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/ScorePage.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/ScoreSummary.cs
+    sourceGUID: 8a535cebe212e40049e1f81cb3f68e8c
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/ScoreSummary.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/Sentinels.cs
+    sourceGUID: a88f3f3baa2b74186a484326c2ce5abc
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/Sentinels.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/SnapshotManager.cs
+    sourceGUID: 405c58d8508a24eada8662a46c3e00f8
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/SnapshotManager.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/SnapshotMetadata.cs
+    sourceGUID: 56bc170fb078441319473f0950f61101
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/SnapshotMetadata.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/SnapshotMetadataChange.cs
+    sourceGUID: f3401b01f5b834fefb925d6e4ef73ba2
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/SnapshotMetadataChange.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/SnapshotMetadataChangeBuilder.cs
+    sourceGUID: a8cb67cc73bc34ec895b3a56f4a2ede3
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/SnapshotMetadataChangeBuilder.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/StatsManager.cs
+    sourceGUID: cd1603b0151b04b39bd5d87cf7066945
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/StatsManager.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/Status.cs
+    sourceGUID: b96adfe02ac0341f5aac795614e91cfd
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/Status.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/SymbolLocation.cs
+    sourceGUID: 83a4d558d7f784a8c976083b47dfa750
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/SymbolLocation.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/TurnBasedMatch.cs
+    sourceGUID: 7dfcdf1178dc3410ab430dfc8ee60a30
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/TurnBasedMatch.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/TurnBasedMatchConfig.cs
+    sourceGUID: bd33baf4bf8504c86abfee1feccac865
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/TurnBasedMatchConfig.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/TurnBasedMatchConfigBuilder.cs
+    sourceGUID: 710c897abc9bc4f9a87525208ed55c6d
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/TurnBasedMatchConfigBuilder.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/TurnBasedMultiplayerManager.cs
+    sourceGUID: 86736e677069a4a9f8c08125945108a3
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/TurnBasedMultiplayerManager.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/Cwrapper/Types.cs
+    sourceGUID: 189334dedbac844beba2953dc9c7d223
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/Cwrapper/Types.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/AchievementManager.cs
+    sourceGUID: 48dde3a3db1ee4107863f97ebeedbb1e
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/AchievementManager.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/AndroidPlatformConfiguration.cs
+    sourceGUID: a9b4a561644814b0cb1a799379d25b87
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/AndroidPlatformConfiguration.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/BaseReferenceHolder.cs
+    sourceGUID: 01dde458421cf400394d2f715db9e194
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/BaseReferenceHolder.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/Callbacks.cs
+    sourceGUID: c0c2f898d8c6440eda4c21965f659bad
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/Callbacks.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/EventManager.cs
+    sourceGUID: 30a18f20177474348b7570c7e9cf674f
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/EventManager.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/GameServices.cs
+    sourceGUID: 24aad5bbddeab4e63a7e6cda0474f672
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/GameServices.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/GameServicesBuilder.cs
+    sourceGUID: b631f8dfc39bb4a74b9cd329484a3219
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/GameServicesBuilder.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/IosPlatformConfiguration.cs
+    sourceGUID: 126129e2bc56243158fd9950e42c4093
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/IosPlatformConfiguration.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/LeaderboardManager.cs
+    sourceGUID: 850bd431cd9c742bf9911ac19e29dbed
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/LeaderboardManager.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/MultiplayerInvitation.cs
+    sourceGUID: 8335c852f5d2b445cb0a0db20bc9ffed
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/MultiplayerInvitation.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/MultiplayerParticipant.cs
+    sourceGUID: ab54db1d0dbf847c287f2f10e047f40c
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/MultiplayerParticipant.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeAchievement.cs
+    sourceGUID: 1eb968a9434514168a4d4a53d361a060
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/NativeAchievement.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeAppIdentifier.cs
+    sourceGUID: d686c5310bc7043ba88c091f09a79ee9
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/NativeAppIdentifier.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeConnectionRequest.cs
+    sourceGUID: faf8529568dc2456a9afb2f401b2d5f0
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/NativeConnectionRequest.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeConnectionResponse.cs
+    sourceGUID: 64938c8ce7cd949f7a5fc1f957145dc3
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/NativeConnectionResponse.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeEndpointDetails.cs
+    sourceGUID: 751f9de1ebb5641cda262a642570ca3e
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/NativeEndpointDetails.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeEndpointDiscoveryListenerHelper.cs
+    sourceGUID: f4f68519f617446e4b1a56243f7eb10d
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/NativeEndpointDiscoveryListenerHelper.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeEvent.cs
+    sourceGUID: a7439c7cd66d7466eae0113a67d12762
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/NativeEvent.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeLeaderboard.cs
+    sourceGUID: 1659006e78ceb4083af8f24969509d93
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/NativeLeaderboard.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeMessageListenerHelper.cs
+    sourceGUID: abab1b19ee68e4bb6886303f98192a92
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/NativeMessageListenerHelper.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/NativePlayer.cs
+    sourceGUID: b86742efe730142f49f32210c3fce3a1
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/NativePlayer.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/NativePlayerStats.cs
+    sourceGUID: 77d08cc43aefe4810aa744711354df66
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/NativePlayerStats.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeQuest.cs
+    sourceGUID: d38e05cffb5964eabb4d190aebebc1e4
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/NativeQuest.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeQuestMilestone.cs
+    sourceGUID: 803b492145e2b4d4186a8383bd39fe95
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/NativeQuestMilestone.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeRealTimeRoom.cs
+    sourceGUID: 0aa63d4d26feb48b286531acbccd3299
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/NativeRealTimeRoom.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeScore.cs
+    sourceGUID: 2051078aca75540068bda97f74ad1394
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/NativeScore.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeScoreEntry.cs
+    sourceGUID: 59f8a3fb5539b436fa711335948cace3
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/NativeScoreEntry.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeScorePage.cs
+    sourceGUID: 5ef3f7db311d64eb0bfeb347f12950c5
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/NativeScorePage.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeScorePageToken.cs
+    sourceGUID: 27acfd8c385f5466c9cc287797cafefd
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/NativeScorePageToken.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeScoreSummary.cs
+    sourceGUID: 6c7a73433694748d186bc0baa24aad58
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/NativeScoreSummary.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeSnapshotMetadata.cs
+    sourceGUID: a352de0f5127747e5973d5afa9156429
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/NativeSnapshotMetadata.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeSnapshotMetadataChange.cs
+    sourceGUID: b5442649d0c1648958bc938ed2769b8d
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/NativeSnapshotMetadataChange.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeStartAdvertisingResult.cs
+    sourceGUID: 7e8df3e7929b2470e9c46b842d809de6
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/NativeStartAdvertisingResult.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/NativeTurnBasedMatch.cs
+    sourceGUID: d1c08543e23e847c9b887c096f23dec7
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/NativeTurnBasedMatch.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/NearbyConnectionsManager.cs
+    sourceGUID: 811ae69d1975740b3a5f19db2500a701
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/NearbyConnectionsManager.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/NearbyConnectionsManagerBuilder.cs
+    sourceGUID: a34444b8afbf3429b9c91aeb8c47f9cb
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/NearbyConnectionsManagerBuilder.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/PInvokeUtilities.cs
+    sourceGUID: 331667ad404354c74946b5ca6b56a53e
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/PInvokeUtilities.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/ParticipantResults.cs
+    sourceGUID: 87a7e789d7a864a909d740512d07b183
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/ParticipantResults.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/PlatformConfiguration.cs
+    sourceGUID: 867fc15ac80c54b9b9097a54a2200bda
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/PlatformConfiguration.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/PlayerManager.cs
+    sourceGUID: 42840cf2e7c1f4eecb4c0cf6b7c2f8dc
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/PlayerManager.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/PlayerSelectUIResponse.cs
+    sourceGUID: c6c9e9720d4a140628a030288b835c55
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/PlayerSelectUIResponse.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/QuestManager.cs
+    sourceGUID: f835f0c66306249a8a5135f2b0cc89ba
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/QuestManager.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/RealTimeEventListenerHelper.cs
+    sourceGUID: af3a22ae8a67646d3826438d217263ac
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/RealTimeEventListenerHelper.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/RealtimeManager.cs
+    sourceGUID: 473ca3ae229944fb69c0c30db98cffcb
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/RealtimeManager.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/RealtimeRoomConfig.cs
+    sourceGUID: 30231a612039746c281ded8452e74d8d
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/RealtimeRoomConfig.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/RealtimeRoomConfigBuilder.cs
+    sourceGUID: b156f3e1bc7904ca992dcfb21bb4e35a
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/RealtimeRoomConfigBuilder.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/SnapshotManager.cs
+    sourceGUID: beb1dfa57ba644370bc03fd814106a0b
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/SnapshotManager.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/StatsManager.cs
+    sourceGUID: 8287176a0dc5a407aa678fddcb6b95e3
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/StatsManager.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/TurnBasedManager.cs
+    sourceGUID: bd4fb8044286d439196d210ea5d6a6f3
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/TurnBasedManager.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/TurnBasedMatchConfig.cs
+    sourceGUID: f523f07ab54ef4baca8580654bd21a8c
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/TurnBasedMatchConfig.cs
+  - sourcePath: Assets/GooglePlayGames/Platforms/Native/PInvoke/TurnBasedMatchConfigBuilder.cs
+    sourceGUID: 37783fe207eb946c49797a8d6525ba1a
+    targetPath: Assets/Plugins/GooglePlayGames/Platforms/Native/PInvoke/TurnBasedMatchConfigBuilder.cs
+  forRemoval: 0
+  forRemovalDeleteEmptyDirs: 0
+  persistent: 1

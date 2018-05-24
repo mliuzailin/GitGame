@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 342976093, guid: 5eb872180e6624b46b2fa8b2229cc7ac, type: 3}
+  m_Name: PlayMaker-log
+  m_EditorClassIdentifier: 
+  ruleName: PlayMaker
+  rootDirectoryGUID: 319607e26f5ded5439c33bfddad43af6
+  rules:
+  - sourcePath: Assets/PlayMaker/UpdateHelper.cs
+    sourceGUID: 3c296afe5d1d4db4793bb16e1e9f607d
+    targetPath: Assets/Plugins/PlayMaker/UpdateHelper.cs
+  - sourcePath: Assets/PlayMaker/Actions/InvokeMethod.cs
+    sourceGUID: 3a2bdf72fb05ced4294cdb1c5f847fbb
+    targetPath: Assets/Plugins/PlayMaker/Actions/InvokeMethod.cs
+  - sourcePath: Assets/PlayMaker/Actions/StartCoroutine.cs
+    sourceGUID: 842057c7f39d18e409aa991699964102
+    targetPath: Assets/Plugins/PlayMaker/Actions/StartCoroutine.cs
+  - sourcePath: Assets/PlayMaker/Editor/AboutWindow.cs
+    sourceGUID: a8b679da4a659c14ea1aeda43acd246a
+    targetPath: Assets/Plugins/Editor/PlayMaker/Editor/AboutWindow.cs
+  - sourcePath: Assets/PlayMaker/Editor/AssetGUIDs.cs
+    sourceGUID: 592117c8c9b452640a3ae62370e70b65
+    targetPath: Assets/Plugins/Editor/PlayMaker/Editor/AssetGUIDs.cs
+  - sourcePath: Assets/PlayMaker/Editor/ContextToolWindow.cs
+    sourceGUID: 36f20044f01bb394ca399f15514cffee
+    targetPath: Assets/Plugins/Editor/PlayMaker/Editor/ContextToolWindow.cs
+  - sourcePath: Assets/PlayMaker/Editor/EditorStartupPrefs.cs
+    sourceGUID: de5210ce93b60c74b910290c522cd727
+    targetPath: Assets/Plugins/Editor/PlayMaker/Editor/EditorStartupPrefs.cs
+  - sourcePath: Assets/PlayMaker/Editor/FsmActionWindow.cs
+    sourceGUID: 2e19e42f9d21b1c49a3627a4101b8899
+    targetPath: Assets/Plugins/Editor/PlayMaker/Editor/FsmActionWindow.cs
+  - sourcePath: Assets/PlayMaker/Editor/FsmComponentInspector.cs
+    sourceGUID: 9306c4050cc990b469e6ae598fec8935
+    targetPath: Assets/Plugins/Editor/PlayMaker/Editor/FsmComponentInspector.cs
+  - sourcePath: Assets/PlayMaker/Editor/FsmEditorHelpers.cs
+    sourceGUID: d32bb7afe075420428cb885c4f6f1894
+    targetPath: Assets/Plugins/Editor/PlayMaker/Editor/FsmEditorHelpers.cs
+  - sourcePath: Assets/PlayMaker/Editor/FsmEditorWindow.cs
+    sourceGUID: 2916a199406917f40ba513733da47a08
+    targetPath: Assets/Plugins/Editor/PlayMaker/Editor/FsmEditorWindow.cs
+  - sourcePath: Assets/PlayMaker/Editor/FsmErrorWindow.cs
+    sourceGUID: 9eb8fe199c065cf45aecf7b52b9fa979
+    targetPath: Assets/Plugins/Editor/PlayMaker/Editor/FsmErrorWindow.cs
+  - sourcePath: Assets/PlayMaker/Editor/FsmEventsWindow.cs
+    sourceGUID: b0320d6e9824b324992f97fec8cc1f64
+    targetPath: Assets/Plugins/Editor/PlayMaker/Editor/FsmEventsWindow.cs
+  - sourcePath: Assets/PlayMaker/Editor/FsmGlobalsWindow.cs
+    sourceGUID: ceeab317aa52436458270ec33862f2f5
+    targetPath: Assets/Plugins/Editor/PlayMaker/Editor/FsmGlobalsWindow.cs
+  - sourcePath: Assets/PlayMaker/Editor/FsmLogWindow.cs
+    sourceGUID: c71222d654a5ef3429f9997b98046e0f
+    targetPath: Assets/Plugins/Editor/PlayMaker/Editor/FsmLogWindow.cs
+  - sourcePath: Assets/PlayMaker/Editor/FsmSelectorWindow.cs
+    sourceGUID: 6d935c6c261d748469153524686e2359
+    targetPath: Assets/Plugins/Editor/PlayMaker/Editor/FsmSelectorWindow.cs
+  - sourcePath: Assets/PlayMaker/Editor/FsmStateWindow.cs
+    sourceGUID: 0b9d081570715a540a4b0a769718fc21
+    targetPath: Assets/Plugins/Editor/PlayMaker/Editor/FsmStateWindow.cs
+  - sourcePath: Assets/PlayMaker/Editor/FsmTemplate.cs
+    sourceGUID: 361089057f21be64c8034c9702b27a50
+    targetPath: Assets/Plugins/Editor/PlayMaker/Editor/FsmTemplate.cs
+  - sourcePath: Assets/PlayMaker/Editor/FsmTemplateEditor.cs
+    sourceGUID: a027b04acf4d4354eb9257d4c4880536
+    targetPath: Assets/Plugins/Editor/PlayMaker/Editor/FsmTemplateEditor.cs
+  - sourcePath: Assets/PlayMaker/Editor/FsmTemplateWindow.cs
+    sourceGUID: 427204093697d39499b7c5446a785ad3
+    targetPath: Assets/Plugins/Editor/PlayMaker/Editor/FsmTemplateWindow.cs
+  - sourcePath: Assets/PlayMaker/Editor/FsmTimelineWindow.cs
+    sourceGUID: c3a5b63705b3fd249b805f2b0179954f
+    targetPath: Assets/Plugins/Editor/PlayMaker/Editor/FsmTimelineWindow.cs
+  - sourcePath: Assets/PlayMaker/Editor/PlayMakerAutoUpdater.cs
+    sourceGUID: e04f17956f363754e8bb25460c272e6e
+    targetPath: Assets/Plugins/Editor/PlayMaker/Editor/PlayMakerAutoUpdater.cs
+  - sourcePath: Assets/PlayMaker/Editor/PlayMakerBugReportWindow.cs
+    sourceGUID: 22cdf5625c9e93d439b35c8a41b2fcd6
+    targetPath: Assets/Plugins/Editor/PlayMaker/Editor/PlayMakerBugReportWindow.cs
+  - sourcePath: Assets/PlayMaker/Editor/PlayMakerBuildCallbacks.cs
+    sourceGUID: 5faf00404eefa01429c8d0918b082392
+    targetPath: Assets/Plugins/Editor/PlayMaker/Editor/PlayMakerBuildCallbacks.cs
+  - sourcePath: Assets/PlayMaker/Editor/PlayMakerCustomActionWizard.cs
+    sourceGUID: 8fbcfa086edb590469238e90b390b2bc
+    targetPath: Assets/Plugins/Editor/PlayMaker/Editor/PlayMakerCustomActionWizard.cs
+  - sourcePath: Assets/PlayMaker/Editor/PlayMakerDefines.cs
+    sourceGUID: 13c472f9b04df314f9f611dc221fde5d
+    targetPath: Assets/Plugins/Editor/PlayMaker/Editor/PlayMakerDefines.cs
+  - sourcePath: Assets/PlayMaker/Editor/PlayMakerEditorStartup.cs
+    sourceGUID: a64b1cf26b8fff549bb975756522c1b6
+    targetPath: Assets/Plugins/Editor/PlayMaker/Editor/PlayMakerEditorStartup.cs
+  - sourcePath: Assets/PlayMaker/Editor/PlayMakerGUIInspector.cs
+    sourceGUID: 09fb03dbb5f08ee439901fabf8a2e9e3
+    targetPath: Assets/Plugins/Editor/PlayMaker/Editor/PlayMakerGUIInspector.cs
+  - sourcePath: Assets/PlayMaker/Editor/PlayMakerGlobalsInspector.cs
+    sourceGUID: 194c6710abcb62f4ba17dcb7da2e0ba5
+    targetPath: Assets/Plugins/Editor/PlayMaker/Editor/PlayMakerGlobalsInspector.cs
+  - sourcePath: Assets/PlayMaker/Editor/PlayMakerMainMenu.cs
+    sourceGUID: 9e54f59004df2fb4698a45143762e335
+    targetPath: Assets/Plugins/Editor/PlayMaker/Editor/PlayMakerMainMenu.cs
+  - sourcePath: Assets/PlayMaker/Editor/PlayMakerProjectTools.cs
+    sourceGUID: c4be08eb2b7053a4c87ee457187b7806
+    targetPath: Assets/Plugins/Editor/PlayMaker/Editor/PlayMakerProjectTools.cs
+  - sourcePath: Assets/PlayMaker/Editor/PlayMakerUpdater.cs
+    sourceGUID: f49fcf7ebc691f54982f6d23eb15f1cc
+    targetPath: Assets/Plugins/Editor/PlayMaker/Editor/PlayMakerUpdater.cs
+  - sourcePath: Assets/PlayMaker/Editor/PlayMakerUpgradeGuide.cs
+    sourceGUID: 97a1e109909320944b8d4357a5a09769
+    targetPath: Assets/Plugins/Editor/PlayMaker/Editor/PlayMakerUpgradeGuide.cs
+  - sourcePath: Assets/PlayMaker/Editor/PlayMakerUpgradeTools.cs
+    sourceGUID: b2a6920d32cb98944bf2529341b9ef44
+    targetPath: Assets/Plugins/Editor/PlayMaker/Editor/PlayMakerUpgradeTools.cs
+  - sourcePath: Assets/PlayMaker/Editor/PlayMakerWelcomeWindow.cs
+    sourceGUID: ae09cdaf80f2e864094117640e60c154
+    targetPath: Assets/Plugins/Editor/PlayMaker/Editor/PlayMakerWelcomeWindow.cs
+  - sourcePath: Assets/PlayMaker/Editor/PreUpdateChecker.cs
+    sourceGUID: 1d8af27db4a82624db734c886597b3d5
+    targetPath: Assets/Plugins/Editor/PlayMaker/Editor/PreUpdateChecker.cs
+  - sourcePath: Assets/PlayMaker/Editor/ReportWindow.cs
+    sourceGUID: e5b4c89f3fd08e04b9ed418f84a2b234
+    targetPath: Assets/Plugins/Editor/PlayMaker/Editor/ReportWindow.cs
+  forRemoval: 0
+  forRemovalDeleteEmptyDirs: 0
+  persistent: 1

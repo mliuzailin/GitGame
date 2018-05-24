@@ -1,0 +1,3 @@
+PRAGMA key = "x'0000000000000000000000000000000000000000000000000000000000000000'";
+.read ./out/_master.normal.zero.bytes.dump.txt
+.quit

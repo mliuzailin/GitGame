@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1781056072107980}
+  m_IsPrefabParent: 1
+--- !u!1 &1781056072107980
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4560498402274250}
+  - component: {fileID: 114128676316562298}
+  m_Layer: 0
+  m_Name: SceneObjReferMainMenuScratchEffect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4560498402274250
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1781056072107980}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114128676316562298
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1781056072107980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d1ef8b875a26064b8b25043ae93e448, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectPrefabGachaRare1: {fileID: 100004, guid: 8fb73d8fc12ac404280c2063e819ca2c,
+    type: 2}
+  m_EffectPrefabGachaRare2: {fileID: 100004, guid: 8fb73d8fc12ac404280c2063e819ca2c,
+    type: 2}
+  m_EffectPrefabGachaRare3: {fileID: 100004, guid: 8fb73d8fc12ac404280c2063e819ca2c,
+    type: 2}
+  m_EffectPrefabGachaRare4: {fileID: 100004, guid: c77961555d9eeb545992d7b5d2d5dac2,
+    type: 2}
+  m_EffectPrefabGachaRare5: {fileID: 100004, guid: d09c77894e30aaf4298d266886a4421b,
+    type: 2}
+  m_EffectPrefabGachaRare6: {fileID: 100004, guid: d09c77894e30aaf4298d266886a4421b,
+    type: 2}
+  m_EffectPrefabGachaToUnit: {fileID: 100004, guid: e50ac23fafe941f4fb184dbeabb0e48c,
+    type: 2}
+  m_EffectPrefabGachaToUnitNew: {fileID: 100006, guid: b4cbcc0a799c36e4a97fd1476de97f27,
+    type: 2}
+  m_EffectPrefabGachaAnswerToPiece: {fileID: 100004, guid: 7a44449aeb8396248a62f6498af5bb76,
+    type: 2}
+  m_EffectPrefabGachaAnswerToUnit: {fileID: 100006, guid: 74aed94de6b65414f811e5a73edcd5f6,
+    type: 2}
+  m_EffectPrefabFriendSelect: {fileID: 100002, guid: 5f99787245f672b4c9c4443b59994855,
+    type: 2}

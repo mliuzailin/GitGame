@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 342976093, guid: 5eb872180e6624b46b2fa8b2229cc7ac, type: 3}
+  m_Name: UniWebView-log
+  m_EditorClassIdentifier: 
+  ruleName: UniWebView
+  rootDirectoryGUID: bec50929591a24cf3ac8b13271000723
+  rules:
+  - sourcePath: Assets/UniWebView/Script/UniWebView.cs
+    sourceGUID: 2a9fa304a8f3e4a829df11f36289fdc3
+    targetPath: Assets/Plugins/UniWebView/Script/UniWebView.cs
+  - sourcePath: Assets/UniWebView/Script/UniWebViewEdgeInsets.cs
+    sourceGUID: 070d3680690c740efb440eb36c6afa09
+    targetPath: Assets/Plugins/UniWebView/Script/UniWebViewEdgeInsets.cs
+  - sourcePath: Assets/UniWebView/Script/UniWebViewMessage.cs
+    sourceGUID: 241fb3bc494b043f6be899ec7ebc5c87
+    targetPath: Assets/Plugins/UniWebView/Script/UniWebViewMessage.cs
+  - sourcePath: Assets/UniWebView/Script/UniWebViewOrientation.cs
+    sourceGUID: 0189ece6d321b47c1a315290f463d8d6
+    targetPath: Assets/Plugins/UniWebView/Script/UniWebViewOrientation.cs
+  - sourcePath: Assets/UniWebView/Script/UniWebViewTransitionEdge.cs
+    sourceGUID: 88d71017250e84edab8ca0ddd686b55d
+    targetPath: Assets/Plugins/UniWebView/Script/UniWebViewTransitionEdge.cs
+  - sourcePath: Assets/UniWebView/Script/Helper/UniWebViewHelper.cs
+    sourceGUID: 140fc92629361465289bcaf88e465b88
+    targetPath: Assets/Plugins/UniWebView/Script/Helper/UniWebViewHelper.cs
+  forRemoval: 0
+  forRemovalDeleteEmptyDirs: 0
+  persistent: 1

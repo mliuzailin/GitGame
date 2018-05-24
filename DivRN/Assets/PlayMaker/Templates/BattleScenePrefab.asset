@@ -1,0 +1,6497 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1219815696, guid: de72a6d2da64d114d95e3c5a01cfaec5, type: 3}
+  m_Name: BattleScenePrefab
+  m_EditorClassIdentifier: 
+  category: General
+  fsm:
+    dataVersion: 2
+    usedInTemplate: {fileID: 11400000}
+    name: BattleScene
+    startState: WaitUpdate
+    states:
+    - name: WaitUpdate
+      description: "Update()\u304C\u52D5\u304D\u59CB\u3081\u308B\u307E\u3067\u3053\u3053\u3067\u5F85\u3064"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 203.0625
+        y: 118.39844
+        width: 229.5
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_INIT
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: BattleInit
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnWaitUpdate
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: InitFadeIn
+      description: "\u521D\u671F\u5316\uFF1A\u30D5\u30A7\u30FC\u30C9\u30A4\u30F3"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 735.58594
+        y: 114.67969
+        width: 257
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_EVOL_START
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameEvolStart
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnInitFadeIn
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: GameEvolStart
+      description: "\u30B2\u30FC\u30E0\uFF1A\u9032\u5316\u6F14\u51FA\u958B\u59CB"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 1067.2344
+        y: 119.30469
+        width: 242
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_EVOL_END
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameEvolEnd
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnGameEvolStart
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: GameEvolEnd
+      description: "\u30B2\u30FC\u30E0\uFF1A\u9032\u5316\u6F14\u51FA\u7D42\u4E86"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 1383.5391
+        y: 128.48438
+        width: 204
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_INIT_START
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: InitStart
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnGameEvolEnd
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: InitStart
+      description: "\u521D\u671F\u5316\uFF1A\u30B9\u30BF\u30FC\u30C8"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 1675.8828
+        y: 128.5625
+        width: 281
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_SELECT_ACTION
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameSelectAction
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnInitStart
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: GameSelectAction
+      description: "\u6226\u95D8\u51E6\u7406\u30B9\u30C6\u30C3\u30D7\uFF1A\u884C\u52D5\u9078\u629E\nBATTLE_STEP_GAME_ENEMY_TURN_FIRST:\u521D\u56DE\u884C\u52D5\u8A2D\u5B9A\u3055\u308C\u305F\u6575\u304C\u3044\u308B\n"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 2034.3359
+        y: 136.04688
+        width: 391.5
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_ENEMY_TURN_FIRST
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameEnemyTurnFirst
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_INITIATIVE_TITLE
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameTitleInitiative
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnGameSelectAction
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: GameEnemyTurnFirst
+      description: "\u30B2\u30FC\u30E0\uFF1A\u6575\u521D\u56DE\u6BB4\u308A\nBATTLE_STEP_GAME_COUNTER_PLAYER\uFF1A\uFF1A\u30AB\u30A6\u30F3\u30BF\u30FC\u51E6\u7406\u304C\u5FC5\u8981\u3067\u3042\u308C\u3070\u30AB\u30A6\u30F3\u30BF\u30FC\u51E6\u7406\u3078\u79FB\u884C"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 1521.4609
+        y: 227.05469
+        width: 400
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_ENEMY_TURN_FIRST_END
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: PhaseEnemyEnd
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_COUNTER_PLAYER
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameCounterPlayer
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnGameEnemyTurnFirst
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: PhaseEnemyEnd
+      description: "\u30B2\u30FC\u30E0\uFF1A\u6575\u521D\u56DE\u6BB4\u308A\n\u30B2\u30FC\u30E0\uFF1A\u5148\u5236\u4E0D\u610F\u6253\u3061\u306E\u7D42\u4E86\n\u30B2\u30FC\u30E0\uFF1A\u6575\u30D5\u30A7\u30A4\u30BA\u7D42\u4E86"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 2078.336
+        y: 977.77344
+        width: 221
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_RESULT
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameResult
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnPhaseEnemyEnd
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: GameTitleInitiative
+      description: "\u30B2\u30FC\u30E0\uFF1A\u5148\u5236\u4E0D\u610F\u6253\u3061\u306E\u30BF\u30A4\u30C8\u30EB\u8868\u793A"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 2488.0312
+        y: 288.57812
+        width: 245
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_INITIATIVE
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameInitiative
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnGameTitleInitiative
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: GameInitiative
+      description: "\u30B2\u30FC\u30E0\uFF1A\u5148\u5236\u4E0D\u610F\u6253\u3061\u306B\u3088\u308B\u30BF\u30FC\u30F3\u5909\u5316"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 2476.5625
+        y: 375.25
+        width: 306
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_INITIATIVE_ATTACK
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameEnemyTurn
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnGameInitiative
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: GameEnemyTurn
+      description: "\u30B2\u30FC\u30E0\uFF1A\u5148\u5236\u4E0D\u610F\u6253\u3061\u306B\u3088\u308B\u653B\u6483\n\u30B2\u30FC\u30E0\uFF1A\u6575\u30BF\u30FC\u30F3"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 2079.1484
+        y: 879
+        width: 307
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_COUNTER_PLAYER
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameCounterPlayer
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_PHASE_ENEMY_END
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: PhaseEnemyEnd
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnGameEnemyTurn
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: PhasePlayerStart
+      description: 
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 980.9531
+        y: 258.46875
+        width: 212
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_THINK
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameThink
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnPhasePlayerStart
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: GameThink
+      description: "\u30B2\u30FC\u30E0\uFF1A\u5165\u529B\u524D\u51E6\u7406\nBATTLE_STEP_GAME_ENEMY_REACTION_START:\u6575\u30EA\u30A2\u30AF\u30B7\u30E7\u30F3\u304C\u5FC5\u8981\u3067\u3042\u308C\u3070\u3001\u6575\u30EA\u30A2\u30AF\u30B7\u30E7\u30F3\u958B\u59CB\u3078\u79FB\u884C"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 944.4453
+        y: 325.17188
+        width: 400
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_ENEMY_REACTION_START
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameEnemyReactionStart
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_INPUT
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameInput
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnGameThink
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: GameInput
+      description: "\u30B2\u30FC\u30E0\uFF1A\u5165\u529B\u5B9F\u884C\nBATTLE_STEP_DEAD_GAMEOVER:\u30D7\u30EC\u30A4\u30E4\u30FC\u30D1\u30FC\u30C6\u30A3\u304C\u5168\u6EC5\u3057\u3066\u308B\u306A\u3089\u30B2\u30FC\u30E0\u30AA\u30FC\u30D0\u30FC\u51E6\u7406\u3078\u9077\u79FB\nBATTLE_STEP_GAME_CLEAR:\u6575\u304C\u5168\u6EC5\u3057\u3066\u308B\u306A\u3089\u30AF\u30EA\u30A2\nBATTLE_STEP_LIMITBREAK:LBS\u30EA\u30AF\u30A8\u30B9\u30C8\u304C\u3042\u308C\u3070\u5C02\u7528\u51E6\u7406\u30B9\u30C6\u30C3\u30D7\u3078\nBATTLE_STEP_GAME_SKILL_SORT:\u30AB\u30A6\u30F3\u30C8\u30C0\u30A6\u30F3\u304C\u5B8C\u9042\u3057\u3066\u3044\u308B\u5834\u5408"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 942.5781
+        y: 433.65625
+        width: 400
+        height: 80
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_DEAD_GAMEOVER
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: DeadGameOver
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_CLEAR
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameClear
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: BATTLE_STEP_LIMITBREAK
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: LimitBreak
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_SKILL_SORT
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameSkillSort
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnGameInput
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: GameSkillSort
+      description: "\u30B2\u30FC\u30E0\uFF1A\u30B9\u30AD\u30EB\u30BD\u30FC\u30C8\uFF08\u524D\u534A\uFF1A\u5FA9\u6D3B\u307E\u3067\uFF09"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 933.0703
+        y: 671.0078
+        width: 286
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_COUNT_FADE_IN
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameSkillCountIn
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnGameSkillSort
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: GameSkillCountIn
+      description: "\u30B2\u30FC\u30E0\uFF1A\u30B9\u30AD\u30EB\u30AB\u30A6\u30F3\u30C8\u30D5\u30A7\u30FC\u30C9\u30A4\u30F3"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 931.4453
+        y: 740.6875
+        width: 299
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_COUNT_FADE_OUT
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameSkillCountOut
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnGameSkillCountIn
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: GameSkillCountOut
+      description: "\u30B2\u30FC\u30E0\uFF1A\u30B9\u30AD\u30EB\u30AB\u30A6\u30F3\u30C8\u30D5\u30A7\u30FC\u30C9\u30A2\u30A6\u30C8"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 929.53125
+        y: 813.40625
+        width: 294
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_ACTION_TITLE_IN
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameActionTitleIn
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnGameSkillCountOut
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: GameActionTitleIn
+      description: "\u30B2\u30FC\u30E0\uFF1A\u5165\u529B\u7D50\u679C\u30A2\u30AF\u30B7\u30E7\u30F3\u30BF\u30A4\u30C8\u30EB\u8868\u793A"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 927.5078
+        y: 888.0625
+        width: 235
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_ACTION
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameAction
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnGameActionTitleIn
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: GameAction
+      description: "\u30B2\u30FC\u30E0\uFF1A\u5165\u529B\u7D50\u679C\u30A2\u30AF\u30B7\u30E7\u30F3\uFF08\u524D\u534A\uFF1A\u5FA9\u6D3B\u307E\u3067\uFF09"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 925.0781
+        y: 975.7656
+        width: 274
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_SKILL_SORT2
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameSkillSort2
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnGameAction
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: GameActionFinish
+      description: "\u30B2\u30FC\u30E0\uFF1A\u5165\u529B\u7D50\u679C\u30A2\u30AF\u30B7\u30E7\u30F3\u7D42\u4E86"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 924.0625
+        y: 1046.3281
+        width: 307
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_ACTION_TITLE_OUT
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameActionTitleOut
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnGameActionFinish
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: GameActionTitleOut
+      description: "\u30B2\u30FC\u30E0\uFF1A\u5165\u529B\u7D50\u679C\u30A2\u30AF\u30B7\u30E7\u30F3\u30BF\u30A4\u30C8\u30EB\u975E\u8868\u793A"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 921.0703
+        y: 1119.8594
+        width: 313
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_BOOST_SKILL_TITLE
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameBoostSkillTitle
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnGameActionTitleOut
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: GameBoostSkillTitle
+      description: "\u30B2\u30FC\u30E0\uFF1A\u30D6\u30FC\u30B9\u30C8\u30B9\u30AD\u30EB\u30BF\u30A4\u30C8\u30EB\u8868\u793A"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 925.15625
+        y: 1196.3438
+        width: 266
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_BOOST_SKILL
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameBoostSkill
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnGameBoostSkillTitle
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: GameBoostSkill
+      description: "\u30B2\u30FC\u30E0\uFF1A\u30D6\u30FC\u30B9\u30C8\u30B9\u30AD\u30EB\u306B\u3088\u308B\u30A2\u30AF\u30B7\u30E7\u30F3"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 920.6953
+        y: 1267.5
+        width: 324
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_BOOST_SKILL_FINISH
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameBoostSkillFinish
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnGameBoostSkill
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: GameBoostSkillFinish
+      description: "\u30B2\u30FC\u30E0\uFF1A\u30D6\u30FC\u30B9\u30C8\u30B9\u30AD\u30EB\u306B\u3088\u308B\u30A2\u30AF\u30B7\u30E7\u30F3\u7D42\u4E86"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 920.3047
+        y: 1340.2656
+        width: 318
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_ACTION_SKILL_TITLE
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameActionSkillTitle
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnGameBoostSkillFinish
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: GameActionSkillTitle
+      description: "\u30B2\u30FC\u30E0\uFF1A\u30B9\u30AD\u30EB\u306B\u3088\u308B\u8FFD\u6483\u51E6\u7406\u30BF\u30A4\u30C8\u30EB\u8868\u793A"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 921.03906
+        y: 1413
+        width: 271
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_ACTION_SKILL
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameActionSkill
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnGameActionSkillTitle
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: GameActionSkill
+      description: "\u30B2\u30FC\u30E0\uFF1A\u30B9\u30AD\u30EB\u306B\u3088\u308B\u8FFD\u6483\u51E6\u7406"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 912.5156
+        y: 1492.4141
+        width: 329
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_ACTION_SKILL_FINISH
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameActionSkillFinish
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnGameActionSkill
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: GameActionSkillFinish
+      description: "\u30B2\u30FC\u30E0\uFF1A\u30B9\u30AD\u30EB\u306B\u3088\u308B\u8FFD\u6483\u51E6\u7406\u7D42\u4E86"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 906.7969
+        y: 1567.2031
+        width: 324
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_PASSIVE_SKILL_TITLE
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GamePassiveSkillTitle
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnGameActionSkillFinish
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: GamePassiveSkillTitle
+      description: "\u30B2\u30FC\u30E0\uFF1A\u30D1\u30C3\u30B7\u30D6\u30B9\u30AD\u30EB\u306B\u3088\u308B\u8FFD\u6483\u51E6\u7406\u30BF\u30A4\u30C8\u30EB\u8868\u793A"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 907.8828
+        y: 1643.0234
+        width: 292.5
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_PASSIVE_SKILL
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GamePassiveSkill
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnGamePassiveSkillTitle
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: GamePassiveSkill
+      description: "\u30B2\u30FC\u30E0\uFF1A\u30D1\u30C3\u30B7\u30D6\u30B9\u30AD\u30EB\u306B\u3088\u308B\u8FFD\u6483\u51E6\u7406"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 903.47656
+        y: 1732.3906
+        width: 335
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_PASSIVE_SKILL_FINISH
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GamePassiveSkillFinish
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnGamePassiveSkill
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: GamePassiveSkillFinish
+      description: "\u30B2\u30FC\u30E0\uFF1A\u30D1\u30C3\u30B7\u30D6\u30B9\u30AD\u30EB\u306B\u3088\u308B\u8FFD\u6483\u51E6\u7406\u7D42\u4E86"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 892.7578
+        y: 1813.8516
+        width: 317
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_LINK_PASSIVE_TITLE
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameLinkPassiveTitle
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnGamePassiveSkillFinish
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: GameLinkPassiveTitle
+      description: "\u30B2\u30FC\u30E0\uFF1A\u30EA\u30F3\u30AF\u30D1\u30C3\u30B7\u30D6\u306B\u3088\u308B\u8FFD\u6483\u51E6\u7406\u30BF\u30A4\u30C8\u30EB\u8868\u793A"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 894.58594
+        y: 1897.1875
+        width: 289
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_LINK_PASSIVE
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameLinkPassive
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnGameLinkPassiveTitle
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: GameLinkPassive
+      description: "\u30B2\u30FC\u30E0\uFF1A\u30EA\u30F3\u30AF\u30D1\u30C3\u30B7\u30D6\u306B\u3088\u308B\u8FFD\u6483\u51E6\u7406"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 890.52344
+        y: 1987.6797
+        width: 328
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_LINK_PASSIVE_FINISH
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameLinkPassiveFinish
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnGameLinkPassive
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: GameLinkPassiveFinish
+      description: "\u30B2\u30FC\u30E0\uFF1A\u30EA\u30F3\u30AF\u30D1\u30C3\u30B7\u30D6\u306B\u3088\u308B\u8FFD\u6483\u51E6\u7406\u7D42\u4E86"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 884.3906
+        y: 2062.3516
+        width: 259.5
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_ACTION_END
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameActionEnd
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnGameLinkPassiveFinish
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: GameActionEnd
+      description: "\u30B2\u30FC\u30E0\uFF1A\u8A55\u4FA1\u8868\u793A"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 1289.8047
+        y: 2050.9297
+        width: 322
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_PHASE_ENEMY_START
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: PhaseEnemyStart
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnGameActionEnd
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: PhaseEnemyStart
+      description: "\u30B2\u30FC\u30E0\uFF1A\u6575\u30D5\u30A7\u30A4\u30BA\u958B\u59CB"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 2086.461
+        y: 660.375
+        width: 283
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_AILMENTUPDATE
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameAilmentUpdate
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnPhaseEnemyStart
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: GameAilmentUpdate
+      description: "\u30B2\u30FC\u30E0\uFF1A\u72B6\u614B\u7570\u5E38\u51E6\u7406 "
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 2085.9531
+        y: 737.4219
+        width: 316
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_ENEMY_TURNUPDATE
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameEnemyTurnUpdate
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnGameAilmentUpdate
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: GameEnemyTurnUpdate
+      description: "\u30B2\u30FC\u30E0\uFF1A\u6575\u30BF\u30FC\u30F3\u66F4\u65B0"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 2083.3047
+        y: 810.66406
+        width: 262
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_ENEMY_TURN
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameEnemyTurn
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnGameEnemyTurnUpdate
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: GameCounterPlayer
+      description: "\u30B2\u30FC\u30E0\uFF1A\u30AB\u30A6\u30F3\u30BF\u30FC\nBATTLE_STEP_GAME_INITIATIVE_ATTACK:\u5EC3\u6B62\nBATTLE_STEP_GAME_ENEMY_TURN_FIRST:GameEnemyTurnFirst\u304B\u3089\u6765\u305F\u5834\u5408\nBATTLE_STEP_GAME_ENEMY_TURN:GameEnemyTurn\u304B\u3089\u6765\u305F\u5834\u5408\nBATTLE_STEP_GAME_ENEMY_REACTION:GameEnemyReaction\u304B\u3089\u6765\u305F\u5834\u5408\nBATTLE_STEP_GAME_RESULT:\u3053\u306E\u6D41\u308C\u306F\u30A8\u30E9\u30FC\uFF1F"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 1943.4766
+        y: 403.96094
+        width: 400
+        height: 96
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_INITIATIVE_ATTACK
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameEnemyTurn
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_ENEMY_TURN_FIRST
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameEnemyTurnFirst
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_ENEMY_TURN
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameEnemyTurn
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_ENEMY_REACTION
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameEnemyReaction
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_RESULT
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameResult
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnGameCounterPlayer
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: GameResult
+      description: "\u30B2\u30FC\u30E0\uFF1A\u30BF\u30FC\u30F3\u7D42\u4E86\nBATTLE_STEP_DEAD_GAMEOVER:\u30D7\u30EC\u30A4\u30E4\u30FC\u30D1\u30FC\u30C6\u30A3\u304C\u5168\u6EC5\u3057\u3066\u308B\u306A\u3089\u30B2\u30FC\u30E0\u30AA\u30FC\u30D0\u30FC\u51E6\u7406\u3078\u9077\u79FB\nBATTLE_STEP_GAME_PHASE_PLAYER_START:\u6575\u304C\u751F\u304D\u3066\u3044\u308C\u3070\u6226\u95D8\u7D9A\u884C\nBATTLE_STEP_GAME_CLEAR:\u4E0A\u8A18\uFF12\u6761\u4EF6\u4EE5\u5916\u306E\u6642"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 1938.5391
+        y: 1137.4609
+        width: 400
+        height: 64
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_DEAD_GAMEOVER
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: DeadGameOver
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_PHASE_PLAYER_START
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: PhasePlayerStart
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_CLEAR
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameClear
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnGameResult
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: GameClear
+      description: "\u30B2\u30FC\u30E0\uFF1A\u30AF\u30EA\u30A2"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 1559.7734
+        y: 1534.9688
+        width: 222
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_WAIT_UPDATE
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: WaitUpdate
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnGameClear
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: DeadGameOver
+      description: "\u6B7B\u4EA1\u6642\uFF1A\u30B2\u30FC\u30E0\u30AA\u30FC\u30D0\u30FC\nBATTLE_STEP_DEAD_GAMEOVER_WAIT:\u7121\u9650\u30C0\u30F3\u30B8\u30E7\u30F3\u3067\u3042\u308C\u3070\u30B3\u30F3\u30C6\u30A3\u30CB\u30E5\u30FC\u4E0D\u53EF\nBATTLE_STEP_DEAD_CONTINUE:\u8AB2\u91D1\u30C0\u30A4\u30A2\u30ED\u30B0\u3067\u30B3\u30F3\u30C6\u30A3\u30CB\u30E5\u30FC\u304C\u9078\u629E\u3055\u308C\u305F\u5834\u5408"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 1939.3672
+        y: 1319.4609
+        width: 400
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_DEAD_GAMEOVER_WAIT
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: DeadGameOverWait
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: BATTLE_STEP_DEAD_CONTINUE
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: DeadContinue
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnDeadGameOver
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: DeadGameOverWait
+      description: "\u6B7B\u4EA1\u6642\uFF1A\u30B2\u30FC\u30E0\u30AA\u30FC\u30D0\u30FC\u6F14\u51FA\u5F85\u3061"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 2373.1953
+        y: 1337.0312
+        width: 216
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_DEAD_RETIRE
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: DeadRetire
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnDeadGameOverWait
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: DeadContinue
+      description: "\u6B7B\u4EA1\u6642\uFF1A\u30D0\u30C8\u30EB\u30B3\u30F3\u30C6\u30A3\u30CB\u30E5\u30FC"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 1540.7969
+        y: 1333.8203
+        width: 328
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_PHASE_PLAYER_START
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: PhasePlayerStart
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnDeadContinue
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: DeadRetire
+      description: "\u6B7B\u4EA1\u6642\uFF1A\u30D0\u30C8\u30EB\u30EA\u30BF\u30A4\u30A2"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 2376.125
+        y: 1529.25
+        width: 123
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnDeadRetire
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: LimitBreak
+      description: "\u30EA\u30DF\u30C3\u30C8\u30D6\u30EC\u30A4\u30AF\u30B9\u30AD\u30EB"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 420.8047
+        y: 789.46875
+        width: 251
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_LIMITBREAK_WAIT
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: LimitBreakWait
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnLimitBreak
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: LimitBreakWait
+      description: "\u30EA\u30DF\u30C3\u30C8\u30D6\u30EC\u30A4\u30AF\u30B9\u30AD\u30EB"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 413.8672
+        y: 889.41406
+        width: 242
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_LIMITBREAK_END
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: LimitBreakEnd
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnLimitBreakWait
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: LimitBreakEnd
+      description: "\u30EA\u30DF\u30C3\u30C8\u30D6\u30EC\u30A4\u30AF\u30B9\u30AD\u30EB\nBATTLE_STEP_GAME_CLEAR:\u6575\u304C\u5168\u6EC5\nBATTLE_STEP_GAME_ENEMY_REACTION_START:\u6575\u306E\u30EA\u30A2\u30AF\u30B7\u30E7\u30F3\u304C\u3042\u308B\u5834\u5408\nBATTLE_STEP_GAME_INPUT:\u4E0A\u8A18\uFF12\u6761\u4EF6\u4EE5\u5916\u306E\u6642"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 400.91406
+        y: 989.83594
+        width: 400
+        height: 64
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_CLEAR
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameClear
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_ENEMY_REACTION_START
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameEnemyReactionStart
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_INPUT
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameInput
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnLimitBreakEnd
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: GameEnemyReactionStart
+      description: "\u30B2\u30FC\u30E0\uFF1A\u6575\u30EA\u30A2\u30AF\u30B7\u30E7\u30F3\u958B\u59CB\nBATTLE_STEP_GAME_INPUT:\u6575\u304C\u5168\u6EC5\u3057\u3066\u3044\u305F\u5834\u5408\u30FB\u6575\u30EA\u30A2\u30AF\u30B7\u30E7\u30F3\u304C\u306A\u3044\u5834\u5408"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 1455.6172
+        y: 417.1172
+        width: 394
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_INPUT
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameInput
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_ENEMY_REACTION
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameEnemyReaction
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnGameEnemyReactionStart
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: GameEnemyReaction
+      description: "\u30B2\u30FC\u30E0\uFF1A\u6575\u30EA\u30A2\u30AF\u30B7\u30E7\u30F3\nBATTLE_STEP_GAME_COUNTER_PLAYER:\u30AB\u30A6\u30F3\u30BF\u30FC\u51E6\u7406\u304C\u5FC5\u8981\u3067\u3042\u308C\u3070"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 1449.6484
+        y: 538.15625
+        width: 400
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_COUNTER_PLAYER
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameCounterPlayer
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_ENEMY_REACTION_END
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameEnemyReactionEnd
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnGameEnemyReaction
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: GameEnemyReactionEnd
+      description: "\u30B2\u30FC\u30E0\uFF1A\u6575\u30EA\u30A2\u30AF\u30B7\u30E7\u30F3\u7D42\u4E86\nBATTLE_STEP_DEAD_GAMEOVER:\u30D7\u30EC\u30A4\u30E4\u30FC\u30D1\u30FC\u30C6\u30A3\u304C\u5168\u6EC5\u3057\u3066\u3044\u308B"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 1444.6328
+        y: 664.8594
+        width: 341.5
+        height: 48
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_DEAD_GAMEOVER
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: DeadGameOver
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_INPUT
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameInput
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnGameEnemyReactionEnd
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: Error
+      description: "\u30A8\u30E9\u30FC"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 1958.1641
+        y: 1537.3438
+        width: 100
+        height: 16
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions: []
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnError
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: BattleInit
+      description: "\u521D\u671F\u5316\uFF1A"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 456.32812
+        y: 114.88281
+        width: 212
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_INIT_FADEIN
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: InitFadeIn
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnBattleInit
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: GameAction2
+      description: "\u30B2\u30FC\u30E0\uFF1A\u5165\u529B\u7D50\u679C\u30A2\u30AF\u30B7\u30E7\u30F3\uFF08\u5F8C\u534A\uFF1A\u5FA9\u6D3B\u3088\u308A\u5F8C\uFF09"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 1349.9609
+        y: 1027.6328
+        width: 288
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_ACTION_FINISH
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameActionFinish
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnGameAction2
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    - name: GameSkillSort2
+      description: "\u30B2\u30FC\u30E0\uFF1A\u30B9\u30AD\u30EB\u30BD\u30FC\u30C8\uFF08\u5F8C\u534A\uFF1A\u5FA9\u6D3B\u3088\u308A\u5F8C\uFF09"
+      colorIndex: 0
+      position:
+        serializedVersion: 2
+        x: 1356.3594
+        y: 923.375
+        width: 245.5
+        height: 32
+      isBreakpoint: 0
+      isSequence: 0
+      hideUnused: 0
+      transitions:
+      - fsmEvent:
+          name: BATTLE_STEP_GAME_ACTION2
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameAction2
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      actionData:
+        actionNames:
+        - HutongGames.PlayMaker.Actions.InvokeMethod
+        customNames:
+        - 
+        actionEnabled: 01
+        actionIsOpen: 01
+        actionStartIndex: 00000000
+        actionHashCodes: 59f9a004
+        unityObjectParams: []
+        fsmGameObjectParams: []
+        fsmOwnerDefaultParams:
+        - ownerOption: 0
+          gameObject:
+            useVariable: 0
+            name: 
+            tooltip: 
+            showInInspector: 0
+            networkSync: 0
+            value: {fileID: 0}
+        animationCurveParams: []
+        functionCallParams: []
+        fsmTemplateControlParams: []
+        fsmEventTargetParams: []
+        fsmPropertyParams: []
+        layoutOptionParams: []
+        fsmStringParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: BattleLogic
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: OnGameSkillSort2
+        fsmObjectParams: []
+        fsmVarParams: []
+        fsmArrayParams: []
+        fsmEnumParams: []
+        fsmFloatParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0
+        - useVariable: 1
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 0.016
+        fsmIntParams: []
+        fsmBoolParams:
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        - useVariable: 0
+          name: 
+          tooltip: 
+          showInInspector: 0
+          networkSync: 0
+          value: 1
+        fsmVector2Params: []
+        fsmVector3Params: []
+        fsmColorParams: []
+        fsmRectParams: []
+        fsmQuaternionParams: []
+        stringParams: []
+        byteData: 
+        arrayParamSizes: 
+        arrayParamTypes: []
+        customTypeSizes: 
+        customTypeNames: []
+        paramDataType: 1400000012000000120000000f000000110000000f00000011000000
+        paramName:
+        - gameObject
+        - behaviour
+        - methodName
+        - delay
+        - repeating
+        - repeatDelay
+        - cancelOnExit
+        paramDataPos: 00000000000000000100000000000000000000000100000001000000
+        paramByteDataSize: 00000000000000000000000000000000000000000000000000000000
+    events:
+    - name: BATTLE_STEP_DEAD_CONTINUE
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_DEAD_GAMEOVER
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_DEAD_GAMEOVER_WAIT
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_DEAD_RETIRE
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_ERROR
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_ACTION
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_ACTION2
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_ACTION_END
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_ACTION_FINISH
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_ACTION_SKILL
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_ACTION_SKILL_FINISH
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_ACTION_SKILL_TITLE
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_ACTION_TITLE_IN
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_ACTION_TITLE_OUT
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_AILMENTUPDATE
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_BOOST_SKILL
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_BOOST_SKILL_FINISH
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_BOOST_SKILL_TITLE
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_CLEAR
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_COUNTER_PLAYER
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_COUNT_FADE_IN
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_COUNT_FADE_OUT
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_ENEMY_REACTION
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_ENEMY_REACTION_END
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_ENEMY_REACTION_START
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_ENEMY_TURN
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_ENEMY_TURNUPDATE
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_ENEMY_TURN_FIRST
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_ENEMY_TURN_FIRST_END
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_EVOL_END
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_EVOL_START
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_INITIATIVE
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_INITIATIVE_ATTACK
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_INITIATIVE_END
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_INITIATIVE_TITLE
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_INPUT
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_LINK_PASSIVE
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_LINK_PASSIVE_FINISH
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_LINK_PASSIVE_TITLE
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_PASSIVE_SKILL
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_PASSIVE_SKILL_FINISH
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_PASSIVE_SKILL_TITLE
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_PHASE_ENEMY_END
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_PHASE_ENEMY_START
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_PHASE_PLAYER_START
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_RESULT
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_SELECT_ACTION
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_SKILL_SORT
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_SKILL_SORT2
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_GAME_THINK
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_INIT
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_INIT_FADEIN
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_INIT_START
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_LIMITBREAK
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_LIMITBREAK_END
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_LIMITBREAK_WAIT
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: BATTLE_STEP_WAIT_UPDATE
+      isSystemEvent: 0
+      isGlobal: 0
+    globalTransitions:
+    - fsmEvent:
+        name: BATTLE_STEP_WAIT_UPDATE
+        isSystemEvent: 0
+        isGlobal: 0
+      toState: WaitUpdate
+      linkStyle: 0
+      linkConstraint: 0
+      colorIndex: 0
+    variables:
+      floatVariables: []
+      intVariables: []
+      boolVariables: []
+      stringVariables: []
+      vector2Variables: []
+      vector3Variables: []
+      colorVariables: []
+      rectVariables: []
+      quaternionVariables: []
+      gameObjectVariables: []
+      objectVariables: []
+      materialVariables: []
+      textureVariables: []
+      arrayVariables: []
+      enumVariables: []
+      categories:
+      - 
+      variableCategoryIDs: 
+    description: 
+    docUrl: 
+    showStateLabel: 1
+    maxLoopCount: 0
+    watermark: 
+    password: 
+    locked: 0
+    manualUpdate: 0
+    keepDelayedEventsOnStateExit: 0
+    preprocessed: 0
+    ExposedEvents: []
+    RestartOnEnable: 1
+    EnableDebugFlow: 0
+    EnableBreakpoints: 1
+    editorFlags: 3
+    activeStateName: 
+    mouseEvents: 0
+    handleLevelLoaded: 0
+    handleTriggerEnter2D: 0
+    handleTriggerExit2D: 0
+    handleTriggerStay2D: 0
+    handleCollisionEnter2D: 0
+    handleCollisionExit2D: 0
+    handleCollisionStay2D: 0
+    handleTriggerEnter: 0
+    handleTriggerExit: 0
+    handleTriggerStay: 0
+    handleCollisionEnter: 0
+    handleCollisionExit: 0
+    handleCollisionStay: 0
+    handleParticleCollision: 0
+    handleControllerColliderHit: 0
+    handleJointBreak: 0
+    handleJointBreak2D: 0
+    handleOnGUI: 0
+    handleFixedUpdate: 0
+    handleApplicationEvents: 0
+    handleAnimatorMove: 0
+    handleAnimatorIK: 0

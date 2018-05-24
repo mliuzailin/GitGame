@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 342976093, guid: 5eb872180e6624b46b2fa8b2229cc7ac, type: 3}
+  m_Name: M4u-log
+  m_EditorClassIdentifier: 
+  ruleName: M4u
+  rootDirectoryGUID: b184e15fca3a8404ca18f3d4d2df569e
+  rules:
+  - sourcePath: Assets/M4u/Demo/Scripts/DemoContext.cs
+    sourceGUID: 6664816feeb9e4827bdf741b9108e560
+    targetPath: Assets/Plugins/M4u/Demo/Scripts/DemoContext.cs
+  - sourcePath: Assets/M4u/Demo/Scripts/DemoContextMono.cs
+    sourceGUID: 4ee4a85148a0d7c4bbb3f18e6f890494
+    targetPath: Assets/Plugins/M4u/Demo/Scripts/DemoContextMono.cs
+  - sourcePath: Assets/M4u/Demo/Scripts/DemoData.cs
+    sourceGUID: 64f9bf91bbe5a46be98dd5c1dd62b1f9
+    targetPath: Assets/Plugins/M4u/Demo/Scripts/DemoData.cs
+  - sourcePath: Assets/M4u/Demo/Scripts/MonsterData.cs
+    sourceGUID: b337fa9213777dd4da9e50d493e0704d
+    targetPath: Assets/Plugins/M4u/Demo/Scripts/MonsterData.cs
+  - sourcePath: Assets/M4u/Demo/Scripts/SceneDemo.cs
+    sourceGUID: f52ba0c6c6bfac44fa5530a0bb6b94a7
+    targetPath: Assets/Plugins/M4u/Demo/Scripts/SceneDemo.cs
+  - sourcePath: Assets/M4u/Demo/Scripts/SceneDemo2.cs
+    sourceGUID: 80498540246da41e2b8c88179bd9d96c
+    targetPath: Assets/Plugins/M4u/Demo/Scripts/SceneDemo2.cs
+  - sourcePath: Assets/M4u/Demo/Scripts/SceneDemo3.cs
+    sourceGUID: c4f743ba7d5fa7248a5be5b3e7837fa4
+    targetPath: Assets/Plugins/M4u/Demo/Scripts/SceneDemo3.cs
+  - sourcePath: Assets/M4u/Demo/Scripts/SceneDemo4.cs
+    sourceGUID: cceb4f5acae999143b4536f8d1a81ac3
+    targetPath: Assets/Plugins/M4u/Demo/Scripts/SceneDemo4.cs
+  - sourcePath: Assets/M4u/Demo/Scripts/SceneDemo5.cs
+    sourceGUID: a22162d28075741ba9b880976315c70c
+    targetPath: Assets/Plugins/M4u/Demo/Scripts/SceneDemo5.cs
+  - sourcePath: Assets/M4u/Editor/M4uBindFlow.cs
+    sourceGUID: d135ea4fa6887894199708e41e53f21a
+    targetPath: Assets/Plugins/Editor/M4u/Editor/M4uBindFlow.cs
+  - sourcePath: Assets/M4u/Editor/M4uHierarchyIcon.cs
+    sourceGUID: 68dbc459376c0de44b2fd3e4d3158c48
+    targetPath: Assets/Plugins/Editor/M4u/Editor/M4uHierarchyIcon.cs
+  - sourcePath: Assets/M4u/Scripts/M4uActiveBinding.cs
+    sourceGUID: addc7d80a2aec4ffcab919cd8c69868b
+    targetPath: Assets/Plugins/M4u/Scripts/M4uActiveBinding.cs
+  - sourcePath: Assets/M4u/Scripts/M4uBinding.cs
+    sourceGUID: 1d7ffc745316445dd9869b42cac6c876
+    targetPath: Assets/Plugins/M4u/Scripts/M4uBinding.cs
+  - sourcePath: Assets/M4u/Scripts/M4uBindingBool.cs
+    sourceGUID: 959612cb816a346a19d45d7e611862eb
+    targetPath: Assets/Plugins/M4u/Scripts/M4uBindingBool.cs
+  - sourcePath: Assets/M4u/Scripts/M4uBindingMultiple.cs
+    sourceGUID: 72aa47003b2074ba5be921456295ae98
+    targetPath: Assets/Plugins/M4u/Scripts/M4uBindingMultiple.cs
+  - sourcePath: Assets/M4u/Scripts/M4uBindingSingle.cs
+    sourceGUID: 49660d9e2452746c8b11f9ed6e2d98be
+    targetPath: Assets/Plugins/M4u/Scripts/M4uBindingSingle.cs
+  - sourcePath: Assets/M4u/Scripts/M4uCollectionBinding.cs
+    sourceGUID: 5a399dc552075c143bcef1bbcc21a2bf
+    targetPath: Assets/Plugins/M4u/Scripts/M4uCollectionBinding.cs
+  - sourcePath: Assets/M4u/Scripts/M4uColorBinding.cs
+    sourceGUID: a31ae455651b9334ab31a7e3e19a66a7
+    targetPath: Assets/Plugins/M4u/Scripts/M4uColorBinding.cs
+  - sourcePath: Assets/M4u/Scripts/M4uConst.cs
+    sourceGUID: 546fbf0be136b4f7e99c0670d40db401
+    targetPath: Assets/Plugins/M4u/Scripts/M4uConst.cs
+  - sourcePath: Assets/M4u/Scripts/M4uContext.cs
+    sourceGUID: 3248f9ea3adbf46aa84b2e9600b1d6d5
+    targetPath: Assets/Plugins/M4u/Scripts/M4uContext.cs
+  - sourcePath: Assets/M4u/Scripts/M4uContextInterface.cs
+    sourceGUID: 278d3bd7f912b4b37aec4ddb814a38b0
+    targetPath: Assets/Plugins/M4u/Scripts/M4uContextInterface.cs
+  - sourcePath: Assets/M4u/Scripts/M4uContextMonoBehaviour.cs
+    sourceGUID: 88310ed6727c24b028a598e2dadadc83
+    targetPath: Assets/Plugins/M4u/Scripts/M4uContextMonoBehaviour.cs
+  - sourcePath: Assets/M4u/Scripts/M4uContextRoot.cs
+    sourceGUID: f90248e67409245248e4959d355fcadf
+    targetPath: Assets/Plugins/M4u/Scripts/M4uContextRoot.cs
+  - sourcePath: Assets/M4u/Scripts/M4uEnableBinding.cs
+    sourceGUID: 94c7b686002a3c048991fd27573b9b6e
+    targetPath: Assets/Plugins/M4u/Scripts/M4uEnableBinding.cs
+  - sourcePath: Assets/M4u/Scripts/M4uEventBinding.cs
+    sourceGUID: afbe783d92eb24fdbaac40a98677e036
+    targetPath: Assets/Plugins/M4u/Scripts/M4uEventBinding.cs
+  - sourcePath: Assets/M4u/Scripts/M4uEventBindings.cs
+    sourceGUID: 974e3530a0dfb4a83a4bd4e6846941fd
+    targetPath: Assets/Plugins/M4u/Scripts/M4uEventBindings.cs
+  - sourcePath: Assets/M4u/Scripts/M4uImageBinding.cs
+    sourceGUID: 2968684347791494f8a3a591519b9423
+    targetPath: Assets/Plugins/M4u/Scripts/M4uImageBinding.cs
+  - sourcePath: Assets/M4u/Scripts/M4uInputFieldBinding.cs
+    sourceGUID: c8b92260955c34209a0c00a262e3032f
+    targetPath: Assets/Plugins/M4u/Scripts/M4uInputFieldBinding.cs
+  - sourcePath: Assets/M4u/Scripts/M4uInputFieldBindings.cs
+    sourceGUID: 217c6f86bf0bd4c6f81d1f747f690915
+    targetPath: Assets/Plugins/M4u/Scripts/M4uInputFieldBindings.cs
+  - sourcePath: Assets/M4u/Scripts/M4uProperty.cs
+    sourceGUID: 822969875d5f44910b57495e1035fc94
+    targetPath: Assets/Plugins/M4u/Scripts/M4uProperty.cs
+  - sourcePath: Assets/M4u/Scripts/M4uPropertyBase.cs
+    sourceGUID: 7f246a9315ded47c6806c2b520d9758d
+    targetPath: Assets/Plugins/M4u/Scripts/M4uPropertyBase.cs
+  - sourcePath: Assets/M4u/Scripts/M4uRawImageBinding.cs
+    sourceGUID: a5f63e286173f4724ab14aa7638620da
+    targetPath: Assets/Plugins/M4u/Scripts/M4uRawImageBinding.cs
+  - sourcePath: Assets/M4u/Scripts/M4uScrollbarBinding.cs
+    sourceGUID: f632e95216be84430b2d4611e60b8ec7
+    targetPath: Assets/Plugins/M4u/Scripts/M4uScrollbarBinding.cs
+  - sourcePath: Assets/M4u/Scripts/M4uSliderBinding.cs
+    sourceGUID: 466efd5cf0d354810881c970f524ebee
+    targetPath: Assets/Plugins/M4u/Scripts/M4uSliderBinding.cs
+  - sourcePath: Assets/M4u/Scripts/M4uSpecialBinding.cs
+    sourceGUID: 3dfe4d603096845cb8afe89818560078
+    targetPath: Assets/Plugins/M4u/Scripts/M4uSpecialBinding.cs
+  - sourcePath: Assets/M4u/Scripts/M4uSpecialBindings.cs
+    sourceGUID: b5ca305bbe57eb248abb1dd2dc229f0e
+    targetPath: Assets/Plugins/M4u/Scripts/M4uSpecialBindings.cs
+  - sourcePath: Assets/M4u/Scripts/M4uTextBinding.cs
+    sourceGUID: bdd408af5299c4d3a8e231057371faae
+    targetPath: Assets/Plugins/M4u/Scripts/M4uTextBinding.cs
+  - sourcePath: Assets/M4u/Scripts/M4uTextBindings.cs
+    sourceGUID: 4dc85c2df211b4540a6d0126628f46cb
+    targetPath: Assets/Plugins/M4u/Scripts/M4uTextBindings.cs
+  - sourcePath: Assets/M4u/Scripts/M4uToggleBinding.cs
+    sourceGUID: d37f490f2ab0d4500b58ebeaf5168833
+    targetPath: Assets/Plugins/M4u/Scripts/M4uToggleBinding.cs
+  - sourcePath: Assets/M4u/Scripts/M4uTransformBinding.cs
+    sourceGUID: d2fafd9852977e1428d5fe4bdd535801
+    targetPath: Assets/Plugins/M4u/Scripts/M4uTransformBinding.cs
+  - sourcePath: Assets/M4u/Scripts/M4uTransformLocalBinding.cs
+    sourceGUID: 8a2653e636005024cb1c1fba0c9626b9
+    targetPath: Assets/Plugins/M4u/Scripts/M4uTransformLocalBinding.cs
+  - sourcePath: Assets/M4u/Scripts/M4uUtil.cs
+    sourceGUID: d203561f466ed4e27a3519601c12d905
+    targetPath: Assets/Plugins/M4u/Scripts/M4uUtil.cs
+  forRemoval: 0
+  forRemovalDeleteEmptyDirs: 0
+  persistent: 1

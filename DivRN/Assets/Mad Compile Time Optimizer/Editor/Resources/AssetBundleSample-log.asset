@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 342976093, guid: 5eb872180e6624b46b2fa8b2229cc7ac, type: 3}
+  m_Name: AssetBundleSample-log
+  m_EditorClassIdentifier: 
+  ruleName: AssetBundleSample
+  rootDirectoryGUID: 57a14c172d733418c9cad50c824ae5b4
+  rules:
+  - sourcePath: Assets/AssetBundleSample/Scripts/LoadAssets.cs
+    sourceGUID: fdbd7a29d2d518942b7af8c0a583c7d6
+    targetPath: Assets/Plugins/AssetBundleSample/Scripts/LoadAssets.cs
+  - sourcePath: Assets/AssetBundleSample/Scripts/LoadScenes.cs
+    sourceGUID: 0ed085a901b1ce34c871a02024743a09
+    targetPath: Assets/Plugins/AssetBundleSample/Scripts/LoadScenes.cs
+  - sourcePath: Assets/AssetBundleSample/Scripts/LoadTanks.cs
+    sourceGUID: ca175e6fd05866c4996caaede6259d67
+    targetPath: Assets/Plugins/AssetBundleSample/Scripts/LoadTanks.cs
+  - sourcePath: Assets/AssetBundleSample/Scripts/LoadVariants.cs
+    sourceGUID: d32ab3df764b1e94c882a2fbce6f996d
+    targetPath: Assets/Plugins/AssetBundleSample/Scripts/LoadVariants.cs
+  forRemoval: 0
+  forRemovalDeleteEmptyDirs: 0
+  persistent: 1

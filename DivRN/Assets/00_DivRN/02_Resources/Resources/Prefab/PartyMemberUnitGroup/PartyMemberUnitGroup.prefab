@@ -1,0 +1,1215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1524720793671306}
+  m_IsPrefabParent: 1
+--- !u!1 &1069673742493172
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224954856409800618}
+  m_Layer: 0
+  m_Name: LinkButtonRoot
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1192193396522776
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224624466144885614}
+  - component: {fileID: 222763586877864760}
+  - component: {fileID: 114915727265935522}
+  - component: {fileID: 114839589960974988}
+  m_Layer: 0
+  m_Name: ReleaseButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1205204296443964
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224457451694555072}
+  - component: {fileID: 114298679448915524}
+  - component: {fileID: 114599038137838884}
+  - component: {fileID: 114131258447228074}
+  m_Layer: 0
+  m_Name: ListView
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1253791166170458
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224804020577720368}
+  - component: {fileID: 222671813209654466}
+  - component: {fileID: 114219458682158284}
+  m_Layer: 0
+  m_Name: TouchSize
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1335817504076804
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224425722157154628}
+  - component: {fileID: 222948560030789780}
+  - component: {fileID: 114368042505195756}
+  m_Layer: 0
+  m_Name: BackGroundImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1524720793671306
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224871671720699040}
+  - component: {fileID: 114110320748917218}
+  - component: {fileID: 114563900213743482}
+  m_Layer: 0
+  m_Name: PartyMemberUnitGroup
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1531407614927000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224848989233528234}
+  - component: {fileID: 222272557256550130}
+  - component: {fileID: 114176420710957752}
+  - component: {fileID: 114532547041550800}
+  m_Layer: 0
+  m_Name: DetailButton
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &114110320748917218
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1524720793671306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 968c883488bfc8944b3b229cf77338e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_root: {fileID: 0}
+  m_animation: {fileID: 0}
+  m_linkButtonRoot: {fileID: 1069673742493172}
+  m_LinkButton: {fileID: 0}
+  PartyInfo:
+    m_PartyTotalAtk: 0000000000000000000000000000000000000000000000000000000000000000
+    m_HPBase:
+      m_MemberValues: 0000000000000000000000000000000000000000
+    m_HPMax:
+      m_MemberValues: 0000000000000000000000000000000000000000
+    m_HPCurrent:
+      m_MemberValues: 0000000000000000000000000000000000000000
+    m_PartyTotalSP: 0
+    m_PartyTotalSPMax: 20
+    m_PartyTotalCost: 0
+    m_PartyTotalCharm: 0
+    m_PartySetupOK: 0
+    m_Ailments:
+      m_MemberValues:
+      - cAilment:
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        m_OwnerType: 0
+      - cAilment:
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        m_OwnerType: 0
+      - cAilment:
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        m_OwnerType: 0
+      - cAilment:
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        m_OwnerType: 0
+      - cAilment:
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        - nMasterDataStatusAilmentID: 0
+          nGoodOrBad: 0
+          nType: 0
+          nUpdateTurnMove: 0
+          nUpdateTurnBattle: 0
+          nLife: 0
+          nBaseAtk: 0
+          nBaseHPMax: 0
+          bUsed: 0
+          bEdge: 0
+          nValueRate: 0
+          nValueFix: 0
+        m_OwnerType: 0
+    m_Hate:
+      m_MemberValues: 0000000000000000000000000000000000000000
+    m_Hate_ProvokeTurn:
+      m_MemberValues: 0000000000000000000000000000000000000000
+    m_Hate_ProvokeOrder:
+      m_MemberValues: 0000000000000000000000000000000000000000
+    m_Hate_1TurnDamage:
+      m_MemberValues: 0000000000000000000000000000000000000000
+    m_Hate_1TurnHeal:
+      m_MemberValues: 0000000000000000000000000000000000000000
+    m_DebugNoDeadFlag:
+      m_MemberValues: 0000000000000000000000000000000000000000
+    m_BattleAchive:
+      m_Panel1Skill: 0
+      m_Panel2Skill: 0
+      m_Panel3Skill: 0
+      m_Panel4Skill: 0
+      m_Panel5Skill: 0
+      m_Combo5: 0
+      m_Combo10: 0
+      m_FullField: 0
+      m_Boost: 0
+--- !u!114 &114131258447228074
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1205204296443964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a399dc552075c143bcef1bbcc21a2bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Path: Units
+  Data: {fileID: 1635379629185668, guid: 031f0a0ff1ee90846b59bd215718b37b, type: 2}
+  SavePath: UnitList
+  OnChanged: OnChangedUnitList
+  namedIndex: 0
+  SetGridCellSize: 0
+--- !u!114 &114176420710957752
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1531407614927000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: eb485e2d6cd524883a71a25daaf43a2d, type: 2}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 0
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300242, guid: f712b4a32e752344197343c86fa253a2, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &114219458682158284
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1253791166170458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2356f5c9bb00b1d4d90edb758315fafe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+--- !u!114 &114298679448915524
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1205204296443964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -405508275, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 9
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_Spacing: 18
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
+--- !u!114 &114368042505195756
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1335817504076804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: eb485e2d6cd524883a71a25daaf43a2d, type: 2}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300172, guid: f712b4a32e752344197343c86fa253a2, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &114532547041550800
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1531407614927000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 114176420710957752}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114110320748917218}
+        m_MethodName: OnClickDetailButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114563900213743482
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1524720793671306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f90248e67409245248e4959d355fcadf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ContextName: 
+  ContextMonoBehaviour: {fileID: 0}
+--- !u!114 &114599038137838884
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1205204296443964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1741964061, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalFit: 2
+  m_VerticalFit: 2
+--- !u!114 &114839589960974988
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1192193396522776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 114915727265935522}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114110320748917218}
+        m_MethodName: OnClickReleaseButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &114915727265935522
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1192193396522776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 2100000, guid: 2cdac8d4315b24ce38b3f9e0118b99b9, type: 2}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300764, guid: e7f319a8382baf74da52e092f6da3775, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &222272557256550130
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1531407614927000}
+--- !u!222 &222671813209654466
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1253791166170458}
+--- !u!222 &222763586877864760
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1192193396522776}
+--- !u!222 &222948560030789780
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1335817504076804}
+--- !u!224 &224425722157154628
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1335817504076804}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224871671720699040}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &224457451694555072
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1205204296443964}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224871671720699040}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchoredPosition: {x: 56, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0.5}
+--- !u!224 &224624466144885614
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1192193396522776}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224871671720699040}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -10, y: 0}
+  m_SizeDelta: {x: 58, y: 58}
+  m_Pivot: {x: 1, y: 0.5}
+--- !u!224 &224804020577720368
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1253791166170458}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224848989233528234}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 76, y: 58}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &224848989233528234
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1531407614927000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224804020577720368}
+  m_Father: {fileID: 224871671720699040}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -70, y: 0}
+  m_SizeDelta: {x: 90, y: 48}
+  m_Pivot: {x: 1, y: 0.5}
+--- !u!224 &224871671720699040
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1524720793671306}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224425722157154628}
+  - {fileID: 224457451694555072}
+  - {fileID: 224624466144885614}
+  - {fileID: 224848989233528234}
+  - {fileID: 224954856409800618}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: -39}
+  m_SizeDelta: {x: 0, y: 100}
+  m_Pivot: {x: 0.5, y: 1}
+--- !u!224 &224954856409800618
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1069673742493172}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224871671720699040}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -284, y: 0}
+  m_SizeDelta: {x: 61, y: 61}
+  m_Pivot: {x: 0.5, y: 0.5}

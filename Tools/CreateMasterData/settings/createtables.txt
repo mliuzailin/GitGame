@@ -1,0 +1,4 @@
+DROP TABLE IF EXISTS 'notification_master'
+CREATE TABLE 'notification_master' (fix_id integer NOT NULL DEFAULT '0', type integer NOT NULL DEFAULT '0', timing_start integer NOT NULL DEFAULT '0', notification_title text NOT NULL , notification_body text NOT NULL , notification_type integer NOT NULL DEFAULT '0',  event_schedule_show integer NOT NULL DEFAULT '0')
+DROP TABLE IF EXISTS 'client_cleate_type_master'
+CREATE TABLE 'client_cleate_type_master' (create_type integer NOT NULL DEFAULT '0', create_time integer NOT NULL DEFAULT '0')

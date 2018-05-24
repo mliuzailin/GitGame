@@ -1,0 +1,24 @@
+DROP INDEX IF EXISTS "idx_skill_active_master_idx_always"
+CREATE INDEX "idx_skill_active_master_idx_always" ON "skill_active_master" (`always`)
+DROP INDEX IF EXISTS "idx_event_master_idx_active_user_group_event_id"
+CREATE INDEX "idx_event_master_idx_active_user_group_event_id" ON "event_master" (`active`,`user_group`,`event_id`)
+DROP INDEX IF EXISTS "idx_area_category_master_idx_area_cate_type"
+CREATE INDEX "idx_area_category_master_idx_area_cate_type" ON "area_category_master" (`area_cate_type`)
+DROP INDEX IF EXISTS "idx_area_master_idx_area_cate_id"
+CREATE INDEX "idx_area_master_idx_area_cate_id" ON "area_master" (`area_cate_id`)
+DROP INDEX IF EXISTS "idx_quest_key_master_idx_key_area_category_id"
+CREATE INDEX "idx_quest_key_master_idx_key_area_category_id" ON "quest_key_master" (`key_area_category_id`)
+DROP INDEX IF EXISTS "idx_asset_bundle_path_master_idx_category"
+CREATE INDEX "idx_asset_bundle_path_master_idx_category" ON "asset_bundle_path_master" (`category`)
+DROP INDEX IF EXISTS "idx_story_master_idx_story_id"
+CREATE INDEX "idx_story_master_idx_story_id" ON "story_master" (`story_id`)
+DROP INDEX IF EXISTS "idx_chara_master_idx_name"
+CREATE INDEX "idx_chara_master_idx_name" ON "chara_master" (`name`)
+DROP INDEX IF EXISTS "idx_chara_master_idx_draw_id"
+CREATE INDEX "idx_chara_master_idx_draw_id" ON "chara_master" (`draw_id`)
+DROP INDEX IF EXISTS "idx_skill_active_master_idx_name"
+CREATE INDEX "idx_skill_active_master_idx_name" ON "skill_active_master" (`name`)
+DROP INDEX IF EXISTS "idx_area_master_idx_event_id"
+CREATE INDEX "idx_area_master_idx_event_id" ON "area_master" (`event_id`)
+DROP INDEX IF EXISTS "idx_text_definition_master_idx_text_key"
+CREATE INDEX "idx_text_definition_master_idx_text_key" ON "text_definition_master" (`text_key`)

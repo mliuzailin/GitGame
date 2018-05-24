@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest 
+  xmlns:android="http://schemas.android.com/apk/res/android" package="com.onevcat.uniwebview" android:installLocation="internalOnly" android:theme="@android:style/Theme.NoTitleBar" android:versionCode="1" android:versionName="1.0">
+  <uses-sdk android:minSdkVersion="17" android:targetSdkVersion="27"/>
+  <supports-screens android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" android:xlargeScreens="true" android:anyDensity="true"/>
+  <application android:icon="@drawable/app_icon" android:label="@string/app_name" android:resizeableActivity="false" android:largeHeap="false" android:debuggable="true">
+    <activity android:name="com.onevcat.uniwebview.AndroidPlugin" android:theme="@style/UnityThemeSelector" android:label="@string/app_name" android:hardwareAccelerated="true" android:windowSoftInputMode="adjustResize" android:launchMode="singleTop" android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+      <!-- カスタムURLスキーム対応 start -->
+      <intent-filter>
+        <data android:scheme="jp.example.divinegate"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+        <category android:name="android.intent.category.BROWSABLE"/>
+        <action android:name="android.intent.action.VIEW"/>
+      </intent-filter>
+      <!-- カスタムURLスキーム対応 end -->
+      <meta-data android:name="android.app.lib_name" android:value="unity"/>
+      <meta-data android:name="unityplayer.ForwardNativeEventsToDalvik" android:value="true"/>
+    </activity>
+    <!-- アプリのアスペクト比として、2.1 以上をサポート -->
+    <meta-data android:name="android.max_aspect" android:value="2.1"/>
+    <!-- ELAN java -->
+    <service android:enabled="true" android:name="com.CFM.ELAN.ELANAlarmCreator"/>
+    <receiver android:name="com.CFM.ELAN.TimedAlarm"/>
+    <!-- end -->
+    <!-- サーバープッシュ通知(Ver3.8.0)対応 -->
+    <meta-data android:name="sender_id" android:value="\ 000000000"/>
+    <!-- sender_id(リリース用、デバッグ用で違う) -->
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+    <service android:name="jp.example.goe.gcm.GcmIntentService"/>
+    <receiver android:name="jp.example.goe.gcm.Receiver" android:permission="com.google.android.c2dm.permission.SEND">
+      <!-- GCMシステムフレームワークによって送信されたインテントのみが、レシーバに送信されることを保証 -->
+      <intent-filter>
+        <!-- アプリケーションが実行してなくてもメッセージ受信可能 -->
+        <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
+        <!-- パッケージ名と同じにする必要がある BuildEditor.cs→OnSettingAndroidManifestXmlで書き換え -->
+        <category android:name="jp.example.dgrn"/>
+      </intent-filter>
+    </receiver>
+    <!-- サーバープッシュ通知(Ver3.8.0)対応 ココマデ-->
+    <!-- Google Play Service-->
+    <!-- the space in these forces it to be interpreted as a string vs. int -->
+    <!-- jp.example.dg -->
+    <meta-data android:name="com.google.android.gms.games.APP_ID" android:value="\ 00000000"/>
+    <meta-data android:name="com.google.android.gms.games.unityVersion" android:value="\ 0.9.36"/>
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+    <!-- Google Play Service-->
+  </application>
+  <!-- PERMISSIONS -->
+  <!-- インターネットに接続しますよ宣言 -->
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <!-- サーバープッシュ通知(Ver3.8.0)対応 -->
+  <!-- Google アカウントを使うように設定：Android 4.0.4 より下位のバージョンのみ必要 -->
+  <uses-permission android:name="android.permission.GET_ACCOUNTS" android:maxSdkVersion="18"/>
+  <!-- スリープ状態から処理の継続可能 -->
+  <uses-permission android:name="android.permission.WAKE_LOCK"/>
+  <!-- GCMへの登録・解除やメッセージ受信可能 -->
+  <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+  <!-- このアプリケーションのみが、GCMメッセージを受信可能(permissionより前は、パッケージ名と同じにする必要がある) BuildEditor.cs→OnSettingAndroidManifestXmlで書き換え -->
+  <uses-permission android:name="jp.example.dgrn.permission.C2D_MESSAGE"/>
+  <!-- protectionLevelをsignatureにする事で、同じ証明書からアクセスできるようになる BuildEditor.cs→OnSettingAndroidManifestXmlで書き換え -->
+  <permission android:name="jp.example.dgrn.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+  <!-- サーバープッシュ通知(Ver3.8.0)対応 ココマデ-->
+</manifest>

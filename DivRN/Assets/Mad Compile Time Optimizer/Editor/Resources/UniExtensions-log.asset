@@ -1,0 +1,163 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 342976093, guid: 5eb872180e6624b46b2fa8b2229cc7ac, type: 3}
+  m_Name: UniExtensions-log
+  m_EditorClassIdentifier: 
+  ruleName: UniExtensions
+  rootDirectoryGUID: 0ff0758b9e876439f84e77e4238e611e
+  rules:
+  - sourcePath: Assets/UniExtensions/Console.cs
+    sourceGUID: 75fa0f6d468eb4de3a2cf43747c1e0f5
+    targetPath: Assets/Plugins/UniExtensions/Console.cs
+  - sourcePath: Assets/UniExtensions/MarkovGenerator.cs
+    sourceGUID: a3aef954c2ff14f4bb4b6086bf29e662
+    targetPath: Assets/Plugins/UniExtensions/MarkovGenerator.cs
+  - sourcePath: Assets/UniExtensions/Rnd.cs
+    sourceGUID: d5c9a49982db742eb86d7b217300a1b4
+    targetPath: Assets/Plugins/UniExtensions/Rnd.cs
+  - sourcePath: Assets/UniExtensions/Singleton.cs
+    sourceGUID: bffd88c29ef98499ba4088e4ebd93ce8
+    targetPath: Assets/Plugins/UniExtensions/Singleton.cs
+  - sourcePath: Assets/UniExtensions/UniExtender.cs
+    sourceGUID: 9c330fb64969a40ed9ad581e6e5cf9c3
+    targetPath: Assets/Plugins/UniExtensions/UniExtender.cs
+  - sourcePath: Assets/UniExtensions/Async/ExtCoroutine.cs
+    sourceGUID: 6456e412b83b6471fa46f0cef33883c5
+    targetPath: Assets/Plugins/UniExtensions/Async/ExtCoroutine.cs
+  - sourcePath: Assets/UniExtensions/Async/MagicThread.cs
+    sourceGUID: a73295e372b0b4df6adc6a73ea2b8cf8
+    targetPath: Assets/Plugins/UniExtensions/Async/MagicThread.cs
+  - sourcePath: Assets/UniExtensions/Async/MapReduce.cs
+    sourceGUID: 866738c8f19384ebdaf33643e86c283b
+    targetPath: Assets/Plugins/UniExtensions/Async/MapReduce.cs
+  - sourcePath: Assets/UniExtensions/Async/ThreadPool.cs
+    sourceGUID: 02f8c0a8ea2e147cbaf99bb986f06c48
+    targetPath: Assets/Plugins/UniExtensions/Async/ThreadPool.cs
+  - sourcePath: Assets/UniExtensions/Async/WorkScheduler.cs
+    sourceGUID: da394317e6c23498e9c258866057a133
+    targetPath: Assets/Plugins/UniExtensions/Async/WorkScheduler.cs
+  - sourcePath: Assets/UniExtensions/Collections/PriorityQueue.cs
+    sourceGUID: df470580dbf7c48899ba044272843ddf
+    targetPath: Assets/Plugins/UniExtensions/Collections/PriorityQueue.cs
+  - sourcePath: Assets/UniExtensions/Collections/RingBuffer.cs
+    sourceGUID: c5eb466e10aa74912a0f70d6fa45da74
+    targetPath: Assets/Plugins/UniExtensions/Collections/RingBuffer.cs
+  - sourcePath: Assets/UniExtensions/Collections/SpatialHash.cs
+    sourceGUID: 3ad110eb855084546a70587c445813c8
+    targetPath: Assets/Plugins/UniExtensions/Collections/SpatialHash.cs
+  - sourcePath: Assets/UniExtensions/Colors/HSV.cs
+    sourceGUID: 5968d7c057e894b22a2b53c190df626e
+    targetPath: Assets/Plugins/UniExtensions/Colors/HSV.cs
+  - sourcePath: Assets/UniExtensions/Control/PID.cs
+    sourceGUID: e3c2eecf8a6bb4b65a7c3dc3f13a8aba
+    targetPath: Assets/Plugins/UniExtensions/Control/PID.cs
+  - sourcePath: Assets/UniExtensions/Crypto/BigInteger.cs
+    sourceGUID: 1628df34c887248d29df151166d2bcb0
+    targetPath: Assets/Plugins/UniExtensions/Crypto/BigInteger.cs
+  - sourcePath: Assets/UniExtensions/Crypto/MD5.cs
+    sourceGUID: b08d0b7525ea5414db2795759ac12a61
+    targetPath: Assets/Plugins/UniExtensions/Crypto/MD5.cs
+  - sourcePath: Assets/UniExtensions/Examples/UniExtensionsExamples.cs
+    sourceGUID: eb119e7ff349a4e4cb7a894df2731723
+    targetPath: Assets/Plugins/UniExtensions/Examples/UniExtensionsExamples.cs
+  - sourcePath: Assets/UniExtensions/Extensions/CameraExtensionMethods.cs
+    sourceGUID: c485ccffafc0a423c8e36f59b2102124
+    targetPath: Assets/Plugins/UniExtensions/Extensions/CameraExtensionMethods.cs
+  - sourcePath: Assets/UniExtensions/Extensions/CollectionExtensionMethods.cs
+    sourceGUID: 8522a4316d562459faa0634ed220f6ad
+    targetPath: Assets/Plugins/UniExtensions/Extensions/CollectionExtensionMethods.cs
+  - sourcePath: Assets/UniExtensions/Extensions/ColorExtensionMethods.cs
+    sourceGUID: 91f92ae24d9c542f9aacdb0614378211
+    targetPath: Assets/Plugins/UniExtensions/Extensions/ColorExtensionMethods.cs
+  - sourcePath: Assets/UniExtensions/Extensions/GUIX.cs
+    sourceGUID: b4c5c9cc12b40434d89caa51b4302e45
+    targetPath: Assets/Plugins/UniExtensions/Extensions/GUIX.cs
+  - sourcePath: Assets/UniExtensions/Extensions/GameObjectExtensionMethods.cs
+    sourceGUID: 752154298d1794df382ceddbff4e903e
+    targetPath: Assets/Plugins/UniExtensions/Extensions/GameObjectExtensionMethods.cs
+  - sourcePath: Assets/UniExtensions/Extensions/MeshExtensionMethods.cs
+    sourceGUID: 14edaadbb9acc4c5ba00efbd0e319fab
+    targetPath: Assets/Plugins/UniExtensions/Extensions/MeshExtensionMethods.cs
+  - sourcePath: Assets/UniExtensions/Extensions/MiscExtensionMethods.cs
+    sourceGUID: cbc68f62ddb7c4e1781e2a1ae908d23f
+    targetPath: Assets/Plugins/UniExtensions/Extensions/MiscExtensionMethods.cs
+  - sourcePath: Assets/UniExtensions/Extensions/MonoBehaviourExtensionMethods.cs
+    sourceGUID: 1ffca8fcae64a41fab4c96c4958ae9fa
+    targetPath: Assets/Plugins/UniExtensions/Extensions/MonoBehaviourExtensionMethods.cs
+  - sourcePath: Assets/UniExtensions/Extensions/RectExtensionMethods.cs
+    sourceGUID: 70777c7c658c44f43a1cfda28cfe86b8
+    targetPath: Assets/Plugins/UniExtensions/Extensions/RectExtensionMethods.cs
+  - sourcePath: Assets/UniExtensions/Extensions/RigidbodyExtensionMethods.cs
+    sourceGUID: 9172743a2c2ac453a979ab09b9c5f20b
+    targetPath: Assets/Plugins/UniExtensions/Extensions/RigidbodyExtensionMethods.cs
+  - sourcePath: Assets/UniExtensions/Extensions/TransformExtensionMethods.cs
+    sourceGUID: 0edd543875ab14a54bb8544c5feed02d
+    targetPath: Assets/Plugins/UniExtensions/Extensions/TransformExtensionMethods.cs
+  - sourcePath: Assets/UniExtensions/Extensions/Vector3ExtensionMethods.cs
+    sourceGUID: e5d258a158c254077be26d3e799dd7d8
+    targetPath: Assets/Plugins/UniExtensions/Extensions/Vector3ExtensionMethods.cs
+  - sourcePath: Assets/UniExtensions/Graph/AStar.cs
+    sourceGUID: 97050851c381546ac948e14fb6e7fb46
+    targetPath: Assets/Plugins/UniExtensions/Graph/AStar.cs
+  - sourcePath: Assets/UniExtensions/Graph/IAStarNode.cs
+    sourceGUID: d21435a86325d45da9199e814a619ce3
+    targetPath: Assets/Plugins/UniExtensions/Graph/IAStarNode.cs
+  - sourcePath: Assets/UniExtensions/Resource/ComponentPool.cs
+    sourceGUID: 4e53c28da66d2411b9a2c22bd0f248ee
+    targetPath: Assets/Plugins/UniExtensions/Resource/ComponentPool.cs
+  - sourcePath: Assets/UniExtensions/Resource/ObjectPool.cs
+    sourceGUID: f59a4ee7a8e6c4444ba5e095270b50d6
+    targetPath: Assets/Plugins/UniExtensions/Resource/ObjectPool.cs
+  - sourcePath: Assets/UniExtensions/Resource/PrefabPool.cs
+    sourceGUID: 62b5e3a6c039e48e089c1775a32949d9
+    targetPath: Assets/Plugins/UniExtensions/Resource/PrefabPool.cs
+  - sourcePath: Assets/UniExtensions/Resource/Recycler.cs
+    sourceGUID: 4bcc71fa220574c26a2c3ad37e0efa81
+    targetPath: Assets/Plugins/UniExtensions/Resource/Recycler.cs
+  - sourcePath: Assets/UniExtensions/Serialization/JsonPrettyPrint.cs
+    sourceGUID: 5aaa3ed17c6ee4032a3f9d0fc3e1a555
+    targetPath: Assets/Plugins/UniExtensions/Serialization/JsonPrettyPrint.cs
+  - sourcePath: Assets/UniExtensions/Serialization/JsonSerializer.cs
+    sourceGUID: 9d56bcdc7ecf848629a2767beaf31ac4
+    targetPath: Assets/Plugins/UniExtensions/Serialization/JsonSerializer.cs
+  - sourcePath: Assets/UniExtensions/UI/SmoothMouseLook.cs
+    sourceGUID: c3b4a0e4cda504db8a8d824fc27315af
+    targetPath: Assets/Plugins/UniExtensions/UI/SmoothMouseLook.cs
+  - sourcePath: Assets/UniExtensions/Zlib/Crc32.cs
+    sourceGUID: d6f76a9b54cc647a69ac7bde9f39db7e
+    targetPath: Assets/Plugins/UniExtensions/Zlib/Crc32.cs
+  - sourcePath: Assets/UniExtensions/Zlib/Deflate.cs
+    sourceGUID: 43f3298d449914161bf4d74e3bbc252b
+    targetPath: Assets/Plugins/UniExtensions/Zlib/Deflate.cs
+  - sourcePath: Assets/UniExtensions/Zlib/InfTree.cs
+    sourceGUID: 67e589171771c4489ba939a851ac4871
+    targetPath: Assets/Plugins/UniExtensions/Zlib/InfTree.cs
+  - sourcePath: Assets/UniExtensions/Zlib/Inflate.cs
+    sourceGUID: d59526cd94a494eb1ac390c11c1e9ca5
+    targetPath: Assets/Plugins/UniExtensions/Zlib/Inflate.cs
+  - sourcePath: Assets/UniExtensions/Zlib/Tree.cs
+    sourceGUID: 01824c9159afa40ecaf1166d803d9769
+    targetPath: Assets/Plugins/UniExtensions/Zlib/Tree.cs
+  - sourcePath: Assets/UniExtensions/Zlib/Zlib.cs
+    sourceGUID: 9a9e257362e374d6793d600144bb19fb
+    targetPath: Assets/Plugins/UniExtensions/Zlib/Zlib.cs
+  - sourcePath: Assets/UniExtensions/Zlib/ZlibCodec.cs
+    sourceGUID: 2254b05dbbed84ef7a6013fc87beb047
+    targetPath: Assets/Plugins/UniExtensions/Zlib/ZlibCodec.cs
+  - sourcePath: Assets/UniExtensions/Zlib/ZlibConstants.cs
+    sourceGUID: 15451c1a899734795a50f6be7f72ca84
+    targetPath: Assets/Plugins/UniExtensions/Zlib/ZlibConstants.cs
+  - sourcePath: Assets/UniExtensions/Zlib/ZlibStream.cs
+    sourceGUID: b394ad98e66ee4fd1827a57ca98cb3a8
+    targetPath: Assets/Plugins/UniExtensions/Zlib/ZlibStream.cs
+  forRemoval: 0
+  forRemovalDeleteEmptyDirs: 0
+  persistent: 1

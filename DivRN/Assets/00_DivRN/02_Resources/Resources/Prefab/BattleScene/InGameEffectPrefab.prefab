@@ -1,0 +1,253 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000014047647644}
+  m_IsPrefabParent: 1
+--- !u!1 &1000014047647644
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000012360118102}
+  - component: {fileID: 114000010961339918}
+  m_Layer: 0
+  m_Name: InGameEffectPrefab
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000012360118102
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014047647644}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000010961339918
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000014047647644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12d2f1b69c1dd1e4e9ef55aa1919126d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_DefaultAnimationController: {fileID: 9100000, guid: c7295dfa6347d4b41b5fbf8381577715,
+    type: 2}
+  m_2DBattleCostPlus: {fileID: 100000, guid: d37be14755d2590469ab236663db24a7, type: 2}
+  m_2DUnitDrop: {fileID: 100000, guid: d446236c2932cf240af4a17ddd91fd3d, type: 2}
+  m_2DPlayerDamage:
+  - {fileID: 100010, guid: 30aa154411680d64faff36e791234107, type: 2}
+  - {fileID: 100010, guid: 30aa154411680d64faff36e791234107, type: 2}
+  - {fileID: 100010, guid: 993a8c4b39c96674ea3645b67d0c5c14, type: 2}
+  - {fileID: 100010, guid: 87d18bcc31897d14c920298e6e3a0835, type: 2}
+  - {fileID: 100010, guid: b9a2386bd5bfd35448ebf315ffde5ce7, type: 2}
+  - {fileID: 100010, guid: 3bedd6f3d1e7877419f207a949299159, type: 2}
+  - {fileID: 100010, guid: d966ffa7e95789e4da35bcb70807a63a, type: 2}
+  m_2DSkill: {fileID: 100000, guid: 497ac2f3d57c00c4492075cfc54ec159, type: 2}
+  m_2DTurnChange: {fileID: 100000, guid: 25bf561f3b8f9024d9fb7060cb64964b, type: 2}
+  m_2DGameClear: {fileID: 100000, guid: 87dc8dde4cb4ae348a9f0027473fa715, type: 2}
+  m_2DSkillPowUP:
+  - {fileID: 160470, guid: cad67a695272b994682dd1a3dd832d00, type: 2}
+  - {fileID: 166394, guid: 1c2cb31acf56f554b91376ebff8d5f94, type: 2}
+  - {fileID: 158716, guid: f1fd7f30e42d1c048a3a10b5e540a3d7, type: 2}
+  - {fileID: 109818, guid: 43d31d33835626644bcff8dc2afa2716, type: 2}
+  - {fileID: 125984, guid: 93ef90414c6f8ae4882889aa4a955b2a, type: 2}
+  m_2DSkillStanby:
+  - {fileID: 148594, guid: 7319da41cd09e4a44b0ff39f75163649, type: 2}
+  - {fileID: 122606, guid: 43c9f65374fd70d4e82753cd70978f60, type: 2}
+  - {fileID: 126564, guid: e604bae4136e77f438ce47242f3da6ca, type: 2}
+  - {fileID: 119664, guid: d71aca429e2648743a695a0fd1d9cccf, type: 2}
+  - {fileID: 112100, guid: f00d67676179d1f4690594de8c123361, type: 2}
+  m_2DEnemyEvol: {fileID: 100010, guid: 1f17a63b6825feb4cbb7420752726e30, type: 2}
+  m_2DEnemyEvol2: {fileID: 100006, guid: 2ef95cba1f8ea794aa5b032e9c3c0f6a, type: 2}
+  m_EnemyDeath: {fileID: 100000, guid: 3843f4e9fa15d284991f69e3794e1d88, type: 2}
+  m_EnemyDeath_BOSS: {fileID: 100000, guid: bc9466b99710f2445bbf6c51d8dc6f7f, type: 2}
+  m_Naught_MA_00: {fileID: 1000012611437706, guid: 4e48ad2504e53d54aa4bd75b218af433,
+    type: 2}
+  m_Naught_MA_01: {fileID: 1000013650509088, guid: 9c73e88d5a90dee48a7c250d73c8ee78,
+    type: 2}
+  m_Naught_MM_00: {fileID: 1000012611437706, guid: 4e48ad2504e53d54aa4bd75b218af433,
+    type: 2}
+  m_Naught_MM_01: {fileID: 1000013650509088, guid: 9c73e88d5a90dee48a7c250d73c8ee78,
+    type: 2}
+  m_Naught_SA_00: {fileID: 1000013722018330, guid: 62fe1adc3a490d3499e162e2ae5486a6,
+    type: 2}
+  m_Naught_SA_01: {fileID: 1000013722018330, guid: a2b0b713d9a8b8b4394abac46a607988,
+    type: 2}
+  m_Naught_SA_02: {fileID: 1000013722018330, guid: e939b14238a82744ca6abcd6dec12e9e,
+    type: 2}
+  m_Naught_SM_00: {fileID: 1000013722018330, guid: 62fe1adc3a490d3499e162e2ae5486a6,
+    type: 2}
+  m_Naught_SM_01: {fileID: 1000013722018330, guid: a2b0b713d9a8b8b4394abac46a607988,
+    type: 2}
+  m_Naught_SM_02: {fileID: 1000013722018330, guid: e939b14238a82744ca6abcd6dec12e9e,
+    type: 2}
+  m_Fire_MA_00: {fileID: 1000013477265072, guid: ca60b68a9663ec346afbb8c8bd87fcf8,
+    type: 2}
+  m_Fire_MA_01: {fileID: 1000014021353762, guid: ec4092ea0e79229428ce7ea8ee364bd2,
+    type: 2}
+  m_Fire_MM_00: {fileID: 1000013477265072, guid: ca60b68a9663ec346afbb8c8bd87fcf8,
+    type: 2}
+  m_Fire_MM_01: {fileID: 1000014021353762, guid: ec4092ea0e79229428ce7ea8ee364bd2,
+    type: 2}
+  m_Fire_SA_00: {fileID: 1000013722018330, guid: 50915cd06205a7643adc6e62d4a61215,
+    type: 2}
+  m_Fire_SA_01: {fileID: 1000013722018330, guid: a9ca195b7bbbf0b44a942a372a620d8c,
+    type: 2}
+  m_Fire_SA_02: {fileID: 1000013722018330, guid: a2696c304ced26e4db6b4f19e9851c0c,
+    type: 2}
+  m_Fire_SM_00: {fileID: 1000013722018330, guid: 50915cd06205a7643adc6e62d4a61215,
+    type: 2}
+  m_Fire_SM_01: {fileID: 1000013722018330, guid: a9ca195b7bbbf0b44a942a372a620d8c,
+    type: 2}
+  m_Fire_SM_02: {fileID: 1000013722018330, guid: a2696c304ced26e4db6b4f19e9851c0c,
+    type: 2}
+  m_Water_MA_00: {fileID: 1000013634106198, guid: 85923e61a05f95142a156b642c43860e,
+    type: 2}
+  m_Water_MA_01: {fileID: 1000012973102162, guid: 0bcc8ffbefef356458deb3dbeb09b002,
+    type: 2}
+  m_Water_MM_00: {fileID: 1000013634106198, guid: 85923e61a05f95142a156b642c43860e,
+    type: 2}
+  m_Water_MM_01: {fileID: 1000012973102162, guid: 0bcc8ffbefef356458deb3dbeb09b002,
+    type: 2}
+  m_Water_SA_00: {fileID: 1000013722018330, guid: 65da62a6f432cdd4da81285dd3d5fec0,
+    type: 2}
+  m_Water_SA_01: {fileID: 1000013722018330, guid: 22b6dda9f90352140b68a14ef035e3d7,
+    type: 2}
+  m_Water_SA_02: {fileID: 1000013722018330, guid: 1ceb069b08548af41bdeeab9d65a5cb7,
+    type: 2}
+  m_Water_SM_00: {fileID: 1000013722018330, guid: 65da62a6f432cdd4da81285dd3d5fec0,
+    type: 2}
+  m_Water_SM_01: {fileID: 1000013722018330, guid: 22b6dda9f90352140b68a14ef035e3d7,
+    type: 2}
+  m_Water_SM_02: {fileID: 1000013722018330, guid: 1ceb069b08548af41bdeeab9d65a5cb7,
+    type: 2}
+  m_Wind_MA_00: {fileID: 1000010523954326, guid: b6328a0c411120f4ca3ba0d29af71507,
+    type: 2}
+  m_Wind_MA_01: {fileID: 1000011433277666, guid: b1c5531290dccfc4b9b3da65344c65f2,
+    type: 2}
+  m_Wind_MM_00: {fileID: 1000010523954326, guid: b6328a0c411120f4ca3ba0d29af71507,
+    type: 2}
+  m_Wind_MM_01: {fileID: 1000011433277666, guid: b1c5531290dccfc4b9b3da65344c65f2,
+    type: 2}
+  m_Wind_SA_00: {fileID: 1000013722018330, guid: 0aa4cbfbc4c891a4ea89d702c476f435,
+    type: 2}
+  m_Wind_SA_01: {fileID: 1000013722018330, guid: 92fd30de684cd6c4783cee20b509cad2,
+    type: 2}
+  m_Wind_SA_02: {fileID: 1000013722018330, guid: a0f97edb5914c954db09d09ef8796d6b,
+    type: 2}
+  m_Wind_SM_00: {fileID: 1000013722018330, guid: 0aa4cbfbc4c891a4ea89d702c476f435,
+    type: 2}
+  m_Wind_SM_01: {fileID: 1000013722018330, guid: 92fd30de684cd6c4783cee20b509cad2,
+    type: 2}
+  m_Wind_SM_02: {fileID: 1000013722018330, guid: a0f97edb5914c954db09d09ef8796d6b,
+    type: 2}
+  m_Light_MA_00: {fileID: 1000013864476466, guid: 217b9c38c0167894d94382ec13ce7a7e,
+    type: 2}
+  m_Light_MA_01: {fileID: 1000013722018330, guid: 6f91097281d638748b3e95a16c438589,
+    type: 2}
+  m_Light_MM_00: {fileID: 1000013864476466, guid: 217b9c38c0167894d94382ec13ce7a7e,
+    type: 2}
+  m_Light_MM_01: {fileID: 1000013722018330, guid: 6f91097281d638748b3e95a16c438589,
+    type: 2}
+  m_Light_SA_00: {fileID: 1000013722018330, guid: bb2b432f0dc2c3e42a1542ee520e1c28,
+    type: 2}
+  m_Light_SA_01: {fileID: 1000013722018330, guid: c5374ffe8a33cc34c8eb1beffac83324,
+    type: 2}
+  m_Light_SA_02: {fileID: 1000013722018330, guid: d1b604715aa09e141a331846e859a240,
+    type: 2}
+  m_Light_SM_00: {fileID: 1000013722018330, guid: bb2b432f0dc2c3e42a1542ee520e1c28,
+    type: 2}
+  m_Light_SM_01: {fileID: 1000013722018330, guid: c5374ffe8a33cc34c8eb1beffac83324,
+    type: 2}
+  m_Light_SM_02: {fileID: 1000013722018330, guid: d1b604715aa09e141a331846e859a240,
+    type: 2}
+  m_Dark_MA_00: {fileID: 1000012158117884, guid: 60093d14c1e5c5e46be1ef641238cc80,
+    type: 2}
+  m_Dark_MA_01: {fileID: 1000012687777304, guid: 7e168424e84331e4083a9e2090419aa3,
+    type: 2}
+  m_Dark_MM_00: {fileID: 1000012158117884, guid: 60093d14c1e5c5e46be1ef641238cc80,
+    type: 2}
+  m_Dark_MM_01: {fileID: 1000012687777304, guid: 7e168424e84331e4083a9e2090419aa3,
+    type: 2}
+  m_Dark_SA_00: {fileID: 1000013722018330, guid: 3df183637e1864f4a8bf8b03523d4e93,
+    type: 2}
+  m_Dark_SA_01: {fileID: 1000013722018330, guid: 162599a18f2f46b438a1f12b0b311a2c,
+    type: 2}
+  m_Dark_SA_02: {fileID: 1000013722018330, guid: a0876dafb4c19c04abf03c39f4b67def,
+    type: 2}
+  m_Dark_SM_00: {fileID: 1000013722018330, guid: 3df183637e1864f4a8bf8b03523d4e93,
+    type: 2}
+  m_Dark_SM_01: {fileID: 1000013722018330, guid: 162599a18f2f46b438a1f12b0b311a2c,
+    type: 2}
+  m_Dark_SM_02: {fileID: 1000013722018330, guid: a0876dafb4c19c04abf03c39f4b67def,
+    type: 2}
+  m_HM_M_Fire: {fileID: 1000013722018330, guid: 8bfb6789b964ca54bbaf94084d72ed1f,
+    type: 2}
+  m_HM_M_Water: {fileID: 1000013722018330, guid: 335fd03e07180a94ea98a2510f4af7f5,
+    type: 2}
+  m_HM_M_Wind: {fileID: 1000013722018330, guid: 7fc1d240888033542b06405772ba9173,
+    type: 2}
+  m_HM_M_Light: {fileID: 1000013722018330, guid: a9e28cb68b2ef4c469952467d810ab65,
+    type: 2}
+  m_HM_M_Dark: {fileID: 1000013722018330, guid: c89f5170f3509ac449e641f4d56d8600,
+    type: 2}
+  m_HM_M_Naught: {fileID: 1000013722018330, guid: 8cbb9973aec723749a0779574d974394,
+    type: 2}
+  m_HM_S_Fire: {fileID: 1000013722018330, guid: 6e8f79cc96046ce4db3ffebbd65046bc,
+    type: 2}
+  m_HM_S_Water: {fileID: 1000013722018330, guid: 9b1d666b1f160744d9152201d3ceff4e,
+    type: 2}
+  m_HM_S_Wind: {fileID: 1000013722018330, guid: bd0f2fe2443ff6d48b1859ace5918ad2,
+    type: 2}
+  m_HM_S_Light: {fileID: 1000013722018330, guid: f6dfd8d17fca2594cadbf1bb63cc7c42,
+    type: 2}
+  m_HM_S_Dark: {fileID: 1000013722018330, guid: ab22a87e611d8c5409f593ee68171d3c,
+    type: 2}
+  m_HM_S_Naught: {fileID: 1000013722018330, guid: 930e5e41abbeb5f49b2740aea60ae665,
+    type: 2}
+  m_Heal_00: {fileID: 178396, guid: 652e2f2bf725dcf4bad45132cab0243f, type: 2}
+  m_Heal_01: {fileID: 178396, guid: 652e2f2bf725dcf4bad45132cab0243f, type: 2}
+  m_Heal_02: {fileID: 178396, guid: 652e2f2bf725dcf4bad45132cab0243f, type: 2}
+  m_Heal_03: {fileID: 178396, guid: 652e2f2bf725dcf4bad45132cab0243f, type: 2}
+  m_Heal_SP: {fileID: 1000013722018330, guid: a6152026cb6ae8941b2482702e748897, type: 2}
+  m_Blood: {fileID: 100012, guid: 21c8210cff1978d46b46445f47786456, type: 2}
+  m_Poison: {fileID: 100012, guid: 8cd507a4a430a3f4da4f0ed80198c276, type: 2}
+  m_Buff: {fileID: 100000, guid: 1f9bf1e1b2960f4408bcfca3b1854349, type: 2}
+  m_Debuff: {fileID: 100012, guid: e329a8de39227a245944ec09db19f30d, type: 2}
+  m_EnemySkillBuff: {fileID: 100000, guid: ce1a2240c1bb45d4592ef77a177886f4, type: 2}
+  m_EnemySkillDebuff: {fileID: 100000, guid: 2161925cebea34143964a14789b327f9, type: 2}
+  m_EnemySkillFire00: {fileID: 100000, guid: 979721668af1b9f47bd02332ab289d06, type: 2}
+  m_EnemySkillWind00: {fileID: 100000, guid: 77e1568accdc20044a32a860cca16ee0, type: 2}
+  m_EnemySkillWater00: {fileID: 100000, guid: 65af8f0e7fa900e42963cbfd24f24ad3, type: 2}
+  m_EnemySkillLight00: {fileID: 100000, guid: e9ba4136817fd6e44a3d55e286b53bb4, type: 2}
+  m_EnemySkillDark00: {fileID: 100000, guid: d95488fea2ae4944db3a71a25661878b, type: 2}
+  m_EnemySkillNaught00: {fileID: 100000, guid: 6705ab4340fb9714e8e1bae40f34e1a8, type: 2}
+  m_EnemySkillHeal_S: {fileID: 100000, guid: 70b2ce082525d8b40a0ca430c495e2ae, type: 2}
+  m_EnemySkillHeal_M: {fileID: 100000, guid: 5c6e1e0972d5dfa4d9082d67e4f3ae2a, type: 2}
+  m_HandCardTransform: {fileID: 100000, guid: c6b7fce689f678b40837cc081cf7097d, type: 2}
+  m_HandCardDestroy: {fileID: 100000, guid: e826e829f4158fd4d960ee61ac68852e, type: 2}
+  m_PlayerSkillBuff: {fileID: 100000, guid: 1f9bf1e1b2960f4408bcfca3b1854349, type: 2}
+  m_PlayerSkillDebuff: {fileID: 100000, guid: b1066aa162db2324ead6dcf4a6f99815, type: 2}
+  m_SkillSetupNaught: {fileID: 1632842200877082, guid: 9fa7c51195e94bc4085140210d57ea3d,
+    type: 2}

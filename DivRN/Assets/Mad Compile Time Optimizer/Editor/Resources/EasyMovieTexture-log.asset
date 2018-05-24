@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 342976093, guid: 5eb872180e6624b46b2fa8b2229cc7ac, type: 3}
+  m_Name: EasyMovieTexture-log
+  m_EditorClassIdentifier: 
+  ruleName: EasyMovieTexture
+  rootDirectoryGUID: d686c77cb117b9f40b7a63ad36757092
+  rules:
+  - sourcePath: Assets/EasyMovieTexture/Editor/CSProjectFilePostProcessor.cs
+    sourceGUID: fc8c7dfb80e9d53428947f1b0a56282d
+    targetPath: Assets/Plugins/Editor/EasyMovieTexture/Editor/CSProjectFilePostProcessor.cs
+  - sourcePath: Assets/EasyMovieTexture/FFmpeg.AutoGen/FFmpeg.avcodec.g.cs
+    sourceGUID: 367e484de0f811a4fa16d5b03838722b
+    targetPath: Assets/Plugins/EasyMovieTexture/FFmpeg.AutoGen/FFmpeg.avcodec.g.cs
+  - sourcePath: Assets/EasyMovieTexture/FFmpeg.AutoGen/FFmpeg.avdevice.g.cs
+    sourceGUID: 9d55950fd1b40644e99557833573b926
+    targetPath: Assets/Plugins/EasyMovieTexture/FFmpeg.AutoGen/FFmpeg.avdevice.g.cs
+  - sourcePath: Assets/EasyMovieTexture/FFmpeg.AutoGen/FFmpeg.avfilter.g.cs
+    sourceGUID: b1438944bd7273a47be6991356a05316
+    targetPath: Assets/Plugins/EasyMovieTexture/FFmpeg.AutoGen/FFmpeg.avfilter.g.cs
+  - sourcePath: Assets/EasyMovieTexture/FFmpeg.AutoGen/FFmpeg.avformat.g.cs
+    sourceGUID: 715981bd3e55c8f4d92915fa618d62ff
+    targetPath: Assets/Plugins/EasyMovieTexture/FFmpeg.AutoGen/FFmpeg.avformat.g.cs
+  - sourcePath: Assets/EasyMovieTexture/FFmpeg.AutoGen/FFmpeg.avutil.g.cs
+    sourceGUID: bafc39890ec7061498016a82fbf84443
+    targetPath: Assets/Plugins/EasyMovieTexture/FFmpeg.AutoGen/FFmpeg.avutil.g.cs
+  - sourcePath: Assets/EasyMovieTexture/FFmpeg.AutoGen/FFmpeg.swresample.g.cs
+    sourceGUID: 8128295638fbe6b4482b0d0e992ad9e1
+    targetPath: Assets/Plugins/EasyMovieTexture/FFmpeg.AutoGen/FFmpeg.swresample.g.cs
+  - sourcePath: Assets/EasyMovieTexture/FFmpeg.AutoGen/FFmpeg.swscale.g.cs
+    sourceGUID: 6c6f76739b5c43f4c8c2e741587186e4
+    targetPath: Assets/Plugins/EasyMovieTexture/FFmpeg.AutoGen/FFmpeg.swscale.g.cs
+  - sourcePath: Assets/EasyMovieTexture/FFmpeg.AutoGen/Unresolved.cs
+    sourceGUID: e989cc03a5dd4394baa9fad87ceec612
+    targetPath: Assets/Plugins/EasyMovieTexture/FFmpeg.AutoGen/Unresolved.cs
+  - sourcePath: Assets/EasyMovieTexture/FFmpeg.AutoGen/Properties/AssemblyInfo.cs
+    sourceGUID: aeff7e5a379628841b33e0d5d8344d27
+    targetPath: Assets/Plugins/EasyMovieTexture/FFmpeg.AutoGen/Properties/AssemblyInfo.cs
+  - sourcePath: Assets/EasyMovieTexture/Scripts/MedaiPlayerSampleGUI.cs
+    sourceGUID: eee7f119e152af540911508b5fe8ad36
+    targetPath: Assets/Plugins/EasyMovieTexture/Scripts/MedaiPlayerSampleGUI.cs
+  - sourcePath: Assets/EasyMovieTexture/Scripts/MedaiPlayerSampleSphereGUI.cs
+    sourceGUID: ec37bb2ac9c199a44813284e110b0209
+    targetPath: Assets/Plugins/EasyMovieTexture/Scripts/MedaiPlayerSampleSphereGUI.cs
+  - sourcePath: Assets/EasyMovieTexture/Scripts/MediaPlayerCtrl.cs
+    sourceGUID: fb521e9ace49d8546a83f420a0debd12
+    targetPath: Assets/Plugins/EasyMovieTexture/Scripts/MediaPlayerCtrl.cs
+  - sourcePath: Assets/EasyMovieTexture/Scripts/MediaPlayerEvent.cs
+    sourceGUID: 0a41c2b2ac31fa046a7665c966657a53
+    targetPath: Assets/Plugins/EasyMovieTexture/Scripts/MediaPlayerEvent.cs
+  - sourcePath: Assets/EasyMovieTexture/Scripts/MediaPlayerFullScreenCtrl.cs
+    sourceGUID: 5faeb80dc9eb5ef4ca61e291e7d094d5
+    targetPath: Assets/Plugins/EasyMovieTexture/Scripts/MediaPlayerFullScreenCtrl.cs
+  - sourcePath: Assets/EasyMovieTexture/Scripts/SeekBarCtrl.cs
+    sourceGUID: 7463adb34fca02e4485e3fe1e84f0114
+    targetPath: Assets/Plugins/EasyMovieTexture/Scripts/SeekBarCtrl.cs
+  - sourcePath: Assets/EasyMovieTexture/Scripts/SphereMirror.cs
+    sourceGUID: 3b5f4b8f99786b349832bf28b578435c
+    targetPath: Assets/Plugins/EasyMovieTexture/Scripts/SphereMirror.cs
+  forRemoval: 0
+  forRemovalDeleteEmptyDirs: 0
+  persistent: 1
